@@ -1,5 +1,6 @@
 import os
 import sys
+import csv
 import unicodedata
 from pathlib import Path
 from datetime import datetime, date, timedelta
@@ -25,7 +26,9 @@ file_to_open = "Albums.csv"
 count = 0
 albumdata = []
 with open(file_to_open, 'r') as file:
-    print("Hallo")
+    csvreader = csv.reader(file, delimiter = ';')
+    for row in csvreader:
+        print("Hallo")
 print("Length", len(albumdata))
 styles = getSampleStyleSheet()
 key = input("Wait")
