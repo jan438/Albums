@@ -17,9 +17,15 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 if sys.platform[0] == 'l':
-    path = '/home/jan/git/Albums'
+    path = '/home/jan/git/Albums/Data'
 if sys.platform[0] == 'w':
-    path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
+    path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums/Data"
 os.chdir(path)
+file_to_open = "Albums.csv"
+count = 0
+albumdata = []
+with open(file_to_open, 'r') as file:
+    print("Hallo")
+print("Length", len(albumdata))
 styles = getSampleStyleSheet()
 key = input("Wait")
