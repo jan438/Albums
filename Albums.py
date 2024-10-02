@@ -28,7 +28,10 @@ albumdata = []
 with open(file_to_open, 'r') as file:
     csvreader = csv.reader(file, delimiter = ';')
     for row in csvreader:
-        print("Hallo")
+        if count > 0:
+            albumdata.append(row)
+        count += 1
+        print(row[0], row[1], row[2])
 print("Length", len(albumdata))
 styles = getSampleStyleSheet()
 key = input("Wait")
