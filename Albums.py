@@ -33,5 +33,7 @@ with open(file_to_open, 'r') as file:
         count += 1
         print(row[0], row[1], row[2])
 print("Length", len(albumdata))
+for i in range(len(albumdata)):
+    print("Album", albumdata[i])
 styles = getSampleStyleSheet()
 key = input("Wait")
