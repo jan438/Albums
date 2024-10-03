@@ -38,11 +38,10 @@ with open(file_to_open, 'r') as file:
         if count > 0:
             albumdata.append(row)
         count += 1
-        print(row[0], row[1], row[2])
-print("Length", len(albumdata))
 for i in range(len(albumdata)):
     albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2]))
-    print("Album", albumdata[i])
 print("Length albums", len(albums))
+for i in range(len(albums)):
+    print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover)
 styles = getSampleStyleSheet()
 key = input("Wait")
