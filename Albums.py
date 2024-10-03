@@ -17,11 +17,17 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, Image, Space
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
+styles = getSampleStyleSheet()
+
 class Album:
     def __init__(self, title, artist, cover):
         self.title = title
         self.artist = artist
         self.cover = cover
+
+def fillAlbumReport(count):
+    print("fillAlbumReport", count)
+    return
 
 if sys.platform[0] == 'l':
     path = '/home/jan/git/Albums/Data'
@@ -43,5 +49,5 @@ for i in range(len(albumdata)):
 print("Length albums", len(albums))
 for i in range(len(albums)):
     print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover)
-styles = getSampleStyleSheet()
+fillAlbumReport(len(albums))
 key = input("Wait")
