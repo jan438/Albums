@@ -40,6 +40,8 @@ def fillAlbumReport(count):
     print("fillAlbumReport", count)
     albumreps = []
     albumreps.append(AlbumReport())
+    albumreps[0].append_Cover(0, albums[0].cover)
+    albumreps[0].append_Cover(1, albums[1].cover)
     print(len(albumreps))
     key = input("Wait")
     return
