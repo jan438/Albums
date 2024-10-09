@@ -19,6 +19,17 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 styles = getSampleStyleSheet()
 
+class AlbumReport:
+    album =  [[] for _ in range(2)]
+
+    def append_Cover(self, col, cover):
+        self.album[col].append(cover)
+
+    def clear(self):
+        for i in range(2):
+            while len(self.album[i]) > 0:
+                self.album[i].pop()
+
 class Album:
     def __init__(self, title, artist, cover):
         self.title = title
@@ -27,6 +38,10 @@ class Album:
 
 def fillAlbumReport(count):
     print("fillAlbumReport", count)
+    albumreps = []
+    albumreps.append(AlbumReport())
+    print(len(albumreps))
+    key = input("Wait")
     return
 
 if sys.platform[0] == 'l':
