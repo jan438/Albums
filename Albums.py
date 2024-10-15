@@ -41,7 +41,8 @@ class Album:
 
 def lookupCover(cover):
     img = Image("Covers/" + cover)
-    print(img)
+    img.drawHeight = 1.5 * inch
+    img.drawWidth = 1.5 * inch 
     return img
 
 def fillAlbumReport(count):
@@ -57,11 +58,10 @@ def fillAlbumReport(count):
     albumreps[0].append_Cover(1, img)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
-    tbl = Table(tbl_data, repeatRows=0, colWidths=[1.5*inch])
+    tbl = Table(tbl_data, repeatRows=0, colWidths=[1.75*inch])
     storypdf.append(tbl)
     doc.build(storypdf)
     albumreps[0].clear()
-    key = input("Wait")
     return
 
 if sys.platform[0] == 'l':
