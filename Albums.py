@@ -18,12 +18,17 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 styles = getSampleStyleSheet()
+titleStyle = ParagraphStyle('tit', parent=styles['Normal'], fontSize = 13)
 
 class AlbumReport:
     album =  [[] for _ in range(2)]
 
     def append_Cover(self, col, cover):
         self.album[col].append(cover)
+
+    def append_Title(self, col, title, style):
+        textpar = Paragraph(title, style)
+        self.album[col].append(textpar)
 
     def clear(self):
         for i in range(2):
@@ -54,8 +59,10 @@ def fillAlbumReport(count):
     albumreps.append(AlbumReport())
     img = lookupCover(albums[0].cover)
     albumreps[0].append_Cover(0, img)
+    albumreps[0].append_Title(0, albums[0].title, titleStyle)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
+    albumreps[0].append_Title(1, albums[1].title, titleStyle)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.75*inch])
