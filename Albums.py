@@ -17,8 +17,10 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, Image, Space
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
+albumfont = "Ubuntu"
+
 styles = getSampleStyleSheet()
-titleStyle = ParagraphStyle('tit', parent=styles['Normal'], fontSize = 13)
+titleStyle = ParagraphStyle('tit', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
 
 class AlbumReport:
     album =  [[] for _ in range(2)]
@@ -91,5 +93,13 @@ for i in range(len(albumdata)):
 print("Length albums", len(albums))
 for i in range(len(albums)):
     print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover)
+pdfmetrics.registerFont(TTFont('Ubuntu', 'Ubuntu-Regular.ttf'))
+pdfmetrics.registerFont(TTFont('UbuntuBold', 'Ubuntu-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('UbuntuItalic', 'Ubuntu-Italic.ttf'))
+pdfmetrics.registerFont(TTFont('UbuntuBoldItalic', 'Ubuntu-BoldItalic.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerif', 'LiberationSerif-Regular.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBold', 'LiberationSerif-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifItalic', 'LiberationSerif-Italic.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBoldItalic', 'LiberationSerif-BoldItalic.ttf'))
 fillAlbumReport(len(albums))
 key = input("Wait")
