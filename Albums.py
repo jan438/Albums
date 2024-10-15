@@ -36,10 +36,16 @@ class Album:
         self.artist = artist
         self.cover = cover
 
+def lookupCover(cover):
+    img = Image("Covers/" + cover)
+    print(img)
+    return img
+
 def fillAlbumReport(count):
     print("fillAlbumReport", count)
     albumreps = []
     albumreps.append(AlbumReport())
+    img = lookupCover(albums[0].cover)
     albumreps[0].append_Cover(0, albums[0].cover)
     albumreps[0].append_Cover(1, albums[1].cover)
     print(len(albumreps))
