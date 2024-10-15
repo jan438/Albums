@@ -47,11 +47,11 @@ def fillAlbumReport(count):
     return
 
 if sys.platform[0] == 'l':
-    path = '/home/jan/git/Albums/Data'
+    path = '/home/jan/git/Albums'
 if sys.platform[0] == 'w':
-    path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums/Data"
+    path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
 os.chdir(path)
-file_to_open = "Albums.csv"
+file_to_open = "Data/Albums.csv"
 count = 0
 albumdata = []
 albums = []
