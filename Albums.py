@@ -44,12 +44,20 @@ def lookupCover(cover):
 def fillAlbumReport(count):
     print("fillAlbumReport", count)
     albumreps = []
+    albumreportname = "PDF/Album" + str(0) + ".pdf"
+    doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
+    storypdf=[]
     albumreps.append(AlbumReport())
     img = lookupCover(albums[0].cover)
     albumreps[0].append_Cover(0, img)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     print(len(albumreps))
+    tbl_data = [[albumreps[0].album]]
+    tbl = Table(tbl_data, repeatRows=0, colWidths=[7.5*inch])
+    storypdf.append(tbl)
+    doc.build(storypdf)
+    albumreps[0].clear()
     key = input("Wait")
     return
 
