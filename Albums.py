@@ -30,6 +30,9 @@ class AlbumReport:
             while len(self.album[i]) > 0:
                 self.album[i].pop()
 
+    def tabledata(self):
+        return [[self.album[0], self.album[1]]]
+
 class Album:
     def __init__(self, title, artist, cover):
         self.title = title
@@ -53,8 +56,8 @@ def fillAlbumReport(count):
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     print(len(albumreps))
-    tbl_data = [[albumreps[0].album]]
-    tbl = Table(tbl_data, repeatRows=0, colWidths=[7.5*inch])
+    tbl_data = albumreps[0].tabledata()
+    tbl = Table(tbl_data, repeatRows=0, colWidths=[1.5*inch])
     storypdf.append(tbl)
     doc.build(storypdf)
     albumreps[0].clear()
