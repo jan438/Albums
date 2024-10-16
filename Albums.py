@@ -23,7 +23,7 @@ styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
 
 class AlbumReport:
-    album =  [[] for _ in range(2)]
+    album = [[] for _ in range(2)]
 
     def append_Cover(self, col, cover):
         self.album[col].append(cover)
