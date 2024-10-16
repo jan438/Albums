@@ -20,7 +20,10 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 albumfont = "Ubuntu"
 
 styles = getSampleStyleSheet()
-titleStyle = ParagraphStyle('tit', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
+titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
+artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
+yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
+genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
 
 class AlbumReport:
     album = [[] for _ in range(2)]
@@ -30,6 +33,10 @@ class AlbumReport:
 
     def append_Title(self, col, title, style):
         textpar = Paragraph(title, style)
+        self.album[col].append(textpar)
+
+    def append_Artist(self, col, artist, style):
+        textpar = Paragraph(artist, style)
         self.album[col].append(textpar)
 
     def clear(self):
@@ -64,9 +71,11 @@ def fillAlbumReport(count):
     img = lookupCover(albums[0].cover)
     albumreps[0].append_Cover(0, img)
     albumreps[0].append_Title(0, albums[0].title, titleStyle)
+    albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     albumreps[0].append_Title(1, albums[1].title, titleStyle)
+    albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.75*inch])
