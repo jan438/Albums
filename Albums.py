@@ -85,6 +85,8 @@ albums = []
 with open(file_to_open, 'r') as file:
     csvreader = csv.reader(file, delimiter = ';')
     for row in csvreader:
+        print(row)
+        key = input("Wait")
         if count > 0:
             albumdata.append(row)
         count += 1
