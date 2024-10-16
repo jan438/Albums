@@ -39,6 +39,9 @@ class AlbumReport:
         textpar = Paragraph(artist, style)
         self.album[col].append(textpar)
 
+    def append_Test(self, col, testpara):
+        self.album[col].append(testpara)
+
     def clear(self):
         for i in range(2):
             while len(self.album[i]) > 0:
@@ -73,11 +76,14 @@ def fillAlbumReport(count):
     titlegenre = albums[0].title + " " + albums[0].genre
     albumreps[0].append_Title(0, titlegenre, titleStyle)
     albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
+    testpara = Paragraph("Test", titleStyle)
+    albumreps[0].append_Test(0, testpara)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     titlegenre = albums[1].title + " " + albums[1].genre
     albumreps[0].append_Title(1, titlegenre, titleStyle)
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
+    albumreps[0].append_Test(1, testpara)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.75*inch])
