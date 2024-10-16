@@ -39,9 +39,6 @@ class AlbumReport:
         textpar = Paragraph(artist, style)
         self.album[col].append(textpar)
 
-    def append_TestP(self, col, testpara):
-        self.album[col].append(testpara)
-
     def append_TestT(self, col, testtable):
         self.album[col].append(testtable)
 
