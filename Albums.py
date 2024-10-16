@@ -70,11 +70,13 @@ def fillAlbumReport(count):
     albumreps.append(AlbumReport())
     img = lookupCover(albums[0].cover)
     albumreps[0].append_Cover(0, img)
-    albumreps[0].append_Title(0, albums[0].title, titleStyle)
+    titlegenre = albums[0].title + " " + albums[0].genre
+    albumreps[0].append_Title(0, titlegenre, titleStyle)
     albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
-    albumreps[0].append_Title(1, albums[1].title, titleStyle)
+    titlegenre = albums[1].title + " " + albums[1].genre
+    albumreps[0].append_Title(1, titlegenre, titleStyle)
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
