@@ -20,10 +20,10 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 albumfont = "Ubuntu"
 
 styles = getSampleStyleSheet()
-titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
-artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
-yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
-genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 13)
+titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
+artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
+yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
+genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 8)
 
 class AlbumReport:
     album = [[] for _ in range(2)]
@@ -78,7 +78,7 @@ def fillAlbumReport(count):
     albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
     titlepara = Paragraph(albums[0].title, titleStyle)
     genrepara = Paragraph(albums[0].genre, genreStyle)
-    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.2 * inch, 0.3 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_TestT(0, titlegenretable)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
@@ -87,7 +87,7 @@ def fillAlbumReport(count):
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
     titlepara = Paragraph(albums[1].title, titleStyle)
     genrepara = Paragraph(albums[1].genre, genreStyle)
-    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.2 * inch, 0.3 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_TestT(1, titlegenretable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
