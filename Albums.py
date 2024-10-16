@@ -80,7 +80,6 @@ def fillAlbumReport(count):
     albumreps[0].append_Title(0, titlegenre, titleStyle)
     albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
     testpara = Paragraph("Test", titleStyle)
-    albumreps[0].append_TestP(0, testpara)
     testtable = Table([[testpara, testpara]], colWidths=[0.75 * inch, 0.75 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_TestT(0, testtable)
     img = lookupCover(albums[1].cover)
@@ -88,7 +87,7 @@ def fillAlbumReport(count):
     titlegenre = albums[1].title + " " + albums[1].genre
     albumreps[0].append_Title(1, titlegenre, titleStyle)
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
-    albumreps[0].append_TestP(1, testpara)
+    testpara = Paragraph("Test", titleStyle)
     testtable = Table([[testpara, testpara]], colWidths=[0.75 * inch, 0.75 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_TestT(1, testtable)
     print(len(albumreps))
