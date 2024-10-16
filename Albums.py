@@ -85,6 +85,9 @@ def fillAlbumReport(count):
     titlegenre = albums[1].title + " " + albums[1].genre
     albumreps[0].append_Title(1, titlegenre, titleStyle)
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
+    titlepara = Paragraph(albums[1].title, titleStyle)
+    genrepara = Paragraph(albums[1].genre, genreStyle)
+    titlegenretable = Table([[titlepara, genrepara]], colWidths=[0.75 * inch, 0.75 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_TestT(1, titlegenretable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
