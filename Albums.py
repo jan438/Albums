@@ -39,7 +39,7 @@ class AlbumReport:
         textpar = Paragraph(artist, style)
         self.album[col].append(textpar)
 
-    def append_TestT(self, col, testtable):
+    def append_Table(self, col, testtable):
         self.album[col].append(testtable)
 
     def clear(self):
@@ -79,7 +79,7 @@ def fillAlbumReport(count):
     titlepara = Paragraph(albums[0].title, titleStyle)
     genrepara = Paragraph(albums[0].genre, genreStyle)
     titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
-    albumreps[0].append_TestT(0, titlegenretable)
+    albumreps[0].append_Table(0, titlegenretable)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     titlegenre = albums[1].title + " " + albums[1].genre
@@ -88,7 +88,7 @@ def fillAlbumReport(count):
     titlepara = Paragraph(albums[1].title, titleStyle)
     genrepara = Paragraph(albums[1].genre, genreStyle)
     titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
-    albumreps[0].append_TestT(1, titlegenretable)
+    albumreps[0].append_Table(1, titlegenretable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.75*inch])
