@@ -20,10 +20,10 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 albumfont = "Ubuntu"
 
 styles = getSampleStyleSheet()
-titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
-artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
-yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 8)
-genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 8)
+titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 10, leading = 11 )
+artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 10, leading = 11)
+yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 8, leading = 9 )
+genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 8, lrading = 9)
 
 class AlbumReport:
     album = [[] for _ in range(2)]
