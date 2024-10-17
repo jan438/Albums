@@ -22,7 +22,7 @@ albumfont = "Ubuntu"
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('title', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
 artistStyle = ParagraphStyle('artist', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
-yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 10)
+yearStyle = ParagraphStyle('year', parent=styles['Normal'], fontName = albumfont, fontSize = 8)
 genreStyle = ParagraphStyle('genre', parent=styles['Normal'], fontName = albumfont, fontSize = 8)
 
 class AlbumReport:
@@ -78,8 +78,12 @@ def fillAlbumReport(count):
     albumreps[0].append_Artist(0, albums[0].artist, artistStyle)
     titlepara = Paragraph(albums[0].title, titleStyle)
     genrepara = Paragraph(albums[0].genre, genreStyle)
-    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_Table(0, titlegenretable)
+    artistpara = Paragraph(albums[0].artist, artistStyle)
+    yearpara = Paragraph(albums[0].year, yearStyle)
+    artistyeartable = Table([[artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
+    albumreps[0].append_Table(0, artistyeartable)
     img = lookupCover(albums[1].cover)
     albumreps[0].append_Cover(1, img)
     titlegenre = albums[1].title + " " + albums[1].genre
@@ -87,7 +91,7 @@ def fillAlbumReport(count):
     albumreps[0].append_Artist(1, albums[1].artist, artistStyle)
     titlepara = Paragraph(albums[1].title, titleStyle)
     genrepara = Paragraph(albums[1].genre, genreStyle)
-    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.1 * inch, 0.4 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
     albumreps[0].append_Table(1, titlegenretable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
