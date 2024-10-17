@@ -24,7 +24,7 @@ titleStyle = ParagraphStyle('title',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
-    borderWidth = 1, borderColor =  black)
+    borderWidth = 1, borderColor = black)
 artistStyle = ParagraphStyle('artist',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
