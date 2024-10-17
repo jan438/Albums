@@ -61,7 +61,8 @@ class Album:
 def lookupCover(cover):
     img = Image("Covers/" + cover)
     img.drawHeight = 1.5 * inch
-    img.drawWidth = 1.5 * inch 
+    img.drawWidth = 1.5 * inch
+    img.hAlign = TA_CENTER
     return img
 
 def fillAlbumReport(count):
