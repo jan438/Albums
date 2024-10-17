@@ -25,25 +25,29 @@ titleStyle = ParagraphStyle('title',
     fontName = albumfont, fontSize = 10,
     leading = 11,
     borderWidth = 1, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0)
+    spaceBefore = 0, spaceAfter = 0,
+    borderPadding = 0)
 artistStyle = ParagraphStyle('artist',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
     borderWidth = 1, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0)
+    spaceBefore = 0, spaceAfter = 0,
+    borderPadding = 0)
 yearStyle = ParagraphStyle('year', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     leading = 9,
     borderWidth = 1, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0)
+    spaceBefore = 0, spaceAfter = 0,
+    borderPadding = 0)
 genreStyle = ParagraphStyle('genre',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     lrading = 9,
     borderWidth = 1, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0)
+    spaceBefore = 0, spaceAfter = 0,
+    borderPadding = 0)
 
 class AlbumReport:
     album = [[] for _ in range(2)]
