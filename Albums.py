@@ -68,8 +68,8 @@ class AlbumReport:
         textpar = Paragraph(artist, style)
         self.album[col].append(textpar)
 
-    def append_Table(self, col, testtable):
-        self.album[col].append(testtable)
+    def append_Table(self, col, table):
+        self.album[col].append(table)
 
     def clear(self):
         for i in range(2):
