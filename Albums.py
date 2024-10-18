@@ -60,14 +60,6 @@ class AlbumReport:
     def append_Cover(self, col, cover):
         self.album[col].append(cover)
 
-    def append_Title(self, col, title, style):
-        textpar = Paragraph(title, style)
-        self.album[col].append(textpar)
-
-    def append_Artist(self, col, artist, style):
-        textpar = Paragraph(artist, style)
-        self.album[col].append(textpar)
-
     def append_Table(self, col, table):
         self.album[col].append(table)
 
