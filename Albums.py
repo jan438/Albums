@@ -49,7 +49,8 @@ genreStyle = ParagraphStyle('genre',
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 
-albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP')
+albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
+    ('LEFTPADDING',(0,0),(-1,-1), 0)
 ]
 
 class AlbumReport:
