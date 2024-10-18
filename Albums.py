@@ -49,6 +49,9 @@ genreStyle = ParagraphStyle('genre',
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 
+albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP')
+]
+
 class AlbumReport:
     album = [[] for _ in range(2)]
 
@@ -101,6 +104,7 @@ def fillAlbumReport(count):
     titlepara = Paragraph(albums[0].title, titleStyle)
     genrepara = Paragraph(albums[0].genre, genreStyle)
     titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable.setStyle(albumStyle)
     albumreps[0].append_Table(0, titlegenretable)
     artistpara = Paragraph(albums[0].artist, artistStyle)
     yearpara = Paragraph(albums[0].year, yearStyle)
@@ -111,6 +115,7 @@ def fillAlbumReport(count):
     titlepara = Paragraph(albums[1].title, titleStyle)
     genrepara = Paragraph(albums[1].genre, genreStyle)
     titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
+    titlegenretable.setStyle(albumStyle)
     albumreps[0].append_Table(1, titlegenretable)
     artistpara = Paragraph(albums[1].artist, artistStyle)
     yearpara = Paragraph(albums[1].year, yearStyle)
