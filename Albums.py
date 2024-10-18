@@ -18,6 +18,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
+columsalbumsreport = 2
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('title', 
