@@ -94,19 +94,7 @@ def fillAlbumReport(count):
     doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
     storypdf=[]
     albumreps.append(AlbumReport())
-    #img = lookupCover(albums[0].cover)
-    #albumreps[0].append_Cover(0, img)
-    #titlepara = Paragraph(albums[0].title, titleStyle)
-    #genrepara = Paragraph(albums[0].genre, genreStyle)
-    #titlegenretable = Table([[titlepara, genrepara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
-    #titlegenretable.setStyle(albumStyle)
-    #albumreps[0].append_Table(0, titlegenretable)
-    #artistpara = Paragraph(albums[0].artist, artistStyle)
-    #yearpara = Paragraph(albums[0].year, yearStyle)
-    #artistyeartable = Table([[artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch])
-    #artistyeartable.setStyle(albumStyle)
-    #albumreps[0].append_Table(0, artistyeartable)
-    for i in range(2):
+    for i in range(columsalbumsreport):
         img = lookupCover(albums[i].cover)
         albumreps[0].append_Cover(i, img)
         titlepara = Paragraph(albums[i].title, titleStyle)
