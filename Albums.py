@@ -65,7 +65,7 @@ class AlbumReport:
         self.album[col].append(table)
 
     def clear(self):
-        for i in range(2):
+        for i in range(columsalbumsreport):
             while len(self.album[i]) > 0:
                 self.album[i].pop()
 
