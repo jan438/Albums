@@ -18,7 +18,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
-columsalbumsreport = 2
+columsalbumreport = 2
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('title', 
@@ -56,7 +56,7 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
 ]
 
 class AlbumReport:
-    album = [[] for _ in range(columsalbumsreport)]
+    album = [[] for _ in range(columsalbumreport)]
 
     def append_Cover(self, col, cover):
         self.album[col].append(cover)
@@ -65,7 +65,7 @@ class AlbumReport:
         self.album[col].append(table)
 
     def clear(self):
-        for i in range(columsalbumsreport):
+        for i in range(columsalbumreport):
             while len(self.album[i]) > 0:
                 self.album[i].pop()
 
@@ -94,7 +94,7 @@ def fillAlbumReport(count):
     doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
     storypdf=[]
     albumreps.append(AlbumReport())
-    for col in range(columsalbumsreport):
+    for col in range(columsalbumreport):
         img = lookupCover(albums[col].cover)
         albumreps[0].append_Cover(col, img)
         titlepara = Paragraph(albums[col].title, titleStyle)
