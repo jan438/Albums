@@ -71,7 +71,7 @@ class AlbumReport:
                 self.albums[i].pop()
 
     def tabledata(self):
-        return [[self.albums[0], self.albums[1]]]
+        return [[self.albums[0], self.albums[1], self.albums[2], self.albums[3]]]
 
 class Album:
     def __init__(self, title, artist, cover, year, genre):
