@@ -26,28 +26,28 @@ titleStyle = ParagraphStyle('title',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
-    borderWidth = 1, borderColor = black,
+    borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 artistStyle = ParagraphStyle('artist',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
-    borderWidth = 1, borderColor = black,
+    borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 yearStyle = ParagraphStyle('year', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     leading = 9,
-    borderWidth = 1, borderColor = black,
+    borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 genreStyle = ParagraphStyle('genre',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     lrading = 9,
-    borderWidth = 1, borderColor = black,
+    borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
 
@@ -106,7 +106,7 @@ def fillAlbumReport(count):
         yearpara = Paragraph(albums[index].year, yearStyle)
         print(index, albums[index].title, col)
         index = index + 1
-        titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch, 0.2 * inch])
+        titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
         albumreps[0].append_Table(col, titlegenreartistyeartable)
     print(len(albumreps))
