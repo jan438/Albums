@@ -19,7 +19,7 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
 rowsalbumreport = 2
-columsalbumreport = 2
+columsalbumreport = 4
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('title', 
@@ -95,14 +95,16 @@ def fillAlbumReport(count):
     doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
     storypdf=[]
     albumreps.append(AlbumReport())
+    index = 0
     row = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[col].cover)
         albumreps[0].append_Cover(col, img)
-        titlepara = Paragraph(albums[col].title, titleStyle)
-        genrepara = Paragraph(albums[col].genre, genreStyle)
-        artistpara = Paragraph(albums[col].artist, artistStyle)
-        yearpara = Paragraph(albums[col].year, yearStyle)
+        titlepara = Paragraph(albums[index].title, titleStyle)
+        genrepara = Paragraph(albums[index].genre, genreStyle)
+        artistpara = Paragraph(albums[index].artist, artistStyle)
+        yearpara = Paragraph(albums[index].year, yearStyle)
+        index = +1
         titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch, 0.2 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
         albumreps[0].append_Table(col, titlegenreartistyeartable)
