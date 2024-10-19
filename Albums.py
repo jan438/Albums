@@ -104,7 +104,8 @@ def fillAlbumReport(count):
         genrepara = Paragraph(albums[index].genre, genreStyle)
         artistpara = Paragraph(albums[index].artist, artistStyle)
         yearpara = Paragraph(albums[index].year, yearStyle)
-        index = +1
+        print(index, albums[index].title, col)
+        index = index + 1
         titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.2 * inch, 0.2 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
         albumreps[0].append_Table(col, titlegenreartistyeartable)
