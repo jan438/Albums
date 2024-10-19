@@ -95,6 +95,7 @@ def fillAlbumReport(count):
     doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
     storypdf=[]
     albumreps.append(AlbumReport())
+    row = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[col].cover)
         albumreps[0].append_Cover(col, img)
