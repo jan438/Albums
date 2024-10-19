@@ -57,21 +57,21 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
 ]
 
 class AlbumReport:
-    album = [[] for _ in range(columsalbumreport)]
+    albums = [[] for _ in range(columsalbumreport)]
 
     def append_Cover(self, col, cover):
-        self.album[col].append(cover)
+        self.albums[col].append(cover)
 
     def append_Table(self, col, table):
-        self.album[col].append(table)
+        self.albums[col].append(table)
 
     def clear(self):
         for i in range(columsalbumreport):
-            while len(self.album[i]) > 0:
-                self.album[i].pop()
+            while len(self.albums[i]) > 0:
+                self.albums[i].pop()
 
     def tabledata(self):
-        return [[self.album[0], self.album[1]]]
+        return [[self.albums[0], self.albums[1]]]
 
 class Album:
     def __init__(self, title, artist, cover, year, genre):
