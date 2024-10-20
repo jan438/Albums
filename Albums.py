@@ -57,13 +57,16 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
 ]
 
 class AlbumReport:
-    albums = [[] for _ in range(columsalbumreport)]
+    albums = [[0 for i in range(columsalbumreport)] for j in range(rowsalbumreport)] 
 
-    def append_Cover(self, col, cover):
-        self.albums[col].append(cover)
+    def append_Cover(self, row, col, cover):
+        print("row", row, "col", col, "cover", cover)
+        key = input("Wait in append cover")
+        self.albums[row][col].append(cover)
+        key = input("Wait in append cover")
 
-    def append_Table(self, col, table):
-        self.albums[col].append(table)
+    def append_Table(self, row, col, table):
+        self.albums[row][col].append(table)
 
     def clear(self):
         for i in range(columsalbumreport):
@@ -71,7 +74,11 @@ class AlbumReport:
                 self.albums[i].pop()
 
     def tabledata(self):
-        return [[self.albums[0], self.albums[1], self.albums[2], self.albums[3]]]
+        return [
+        [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3]],
+        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3]],
+
+        ]
 
 class Album:
     def __init__(self, title, artist, cover, year, genre):
@@ -96,10 +103,14 @@ def fillAlbumReport(count):
     storypdf=[]
     albumreps.append(AlbumReport())
     index = 0
+    for i in range(rowsalbumreport):
+        for j in range(columsalbumreport):
+            albumreps[0].albums[i][j] = []
+    key = input("Wait")
     row = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[index].cover)
-        albumreps[0].append_Cover(col, img)
+        albumreps[0].append_Cover(row, col, img)
         titlepara = Paragraph(albums[index].title, titleStyle)
         genrepara = Paragraph(albums[index].genre, genreStyle)
         artistpara = Paragraph(albums[index].artist, artistStyle)
@@ -108,13 +119,13 @@ def fillAlbumReport(count):
         index = index + 1
         titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
-        albumreps[0].append_Table(col, titlegenreartistyeartable)
+        albumreps[0].append_Table(row, col, titlegenreartistyeartable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.6 * inch])
     storypdf.append(tbl)
     doc.build(storypdf)
-    albumreps[0].clear()
+    #albumreps[0].clear()
     return
 
 if sys.platform[0] == 'l':
