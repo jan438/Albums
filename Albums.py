@@ -66,9 +66,11 @@ class AlbumReport:
         self.albums[row][col].append(table)
 
     def clear(self):
-        for i in range(columsalbumreport):
-            while len(self.albums[i]) > 0:
-                self.albums[i].pop()
+        for a in self.albums:
+            try:
+                a.pop()
+            except IndexError:
+                print(a)
 
     def tabledata(self):
         return [
@@ -121,7 +123,8 @@ def fillAlbumReport(count):
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.6 * inch])
     storypdf.append(tbl)
     doc.build(storypdf)
-    #albumreps[0].clear()
+    albumreps[0].clear()
+    print("len albums", len(albumreps[0].albums))
     return
 
 if sys.platform[0] == 'l':
