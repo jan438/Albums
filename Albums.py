@@ -106,6 +106,11 @@ def fillAlbumReport(count):
         for j in range(columsalbumreport):
             albumreps[indrep].albums[i][j] = []
     row = 0
+    for row in range(rowsalbumreport):
+        for col in range(columsalbumreport):
+            print(albums[index].title)
+            index += 1
+    index = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[index].cover)
         albumreps[indrep].append_Cover(row, col, img)
@@ -113,7 +118,7 @@ def fillAlbumReport(count):
         genrepara = Paragraph(albums[index].genre, genreStyle)
         artistpara = Paragraph(albums[index].artist, artistStyle)
         yearpara = Paragraph(albums[index].year, yearStyle)
-        index = index + 1
+        index += 1
         titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
         albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
