@@ -118,12 +118,12 @@ def fillAlbumReport(count):
         titlegenreartistyeartable.setStyle(albumStyle)
         albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
     print(len(albumreps))
-    tbl_data = albumreps[0].tabledata()
+    tbl_data = albumreps[indrep].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.6 * inch])
     storypdf.append(tbl)
     doc.build(storypdf)
     albumreps[indrep].clear()
-    print("len albums", len(albumreps[0].albums))
+    print("len albums", len(albumreps[indrep].albums))
     return
 
 if sys.platform[0] == 'l':
