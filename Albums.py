@@ -75,8 +75,7 @@ class AlbumReport:
     def tabledata(self):
         return [
         [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3]],
-        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3]],
-
+        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3]]
         ]
 
 class Album:
