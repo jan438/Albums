@@ -60,10 +60,7 @@ class AlbumReport:
     albums = [[0 for i in range(columsalbumreport)] for j in range(rowsalbumreport)] 
 
     def append_Cover(self, row, col, cover):
-        print("row", row, "col", col, "cover", cover)
-        key = input("Wait in append cover")
         self.albums[row][col].append(cover)
-        key = input("Wait in append cover")
 
     def append_Table(self, row, col, table):
         self.albums[row][col].append(table)
@@ -106,7 +103,6 @@ def fillAlbumReport(count):
     for i in range(rowsalbumreport):
         for j in range(columsalbumreport):
             albumreps[0].albums[i][j] = []
-    key = input("Wait")
     row = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[index].cover)
