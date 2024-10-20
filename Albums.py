@@ -101,29 +101,29 @@ def fillAlbumReport(count):
     doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
     storypdf=[]
     albumreps.append(AlbumReport())
+    indrep = 0
     index = 0
     for i in range(rowsalbumreport):
         for j in range(columsalbumreport):
-            albumreps[0].albums[i][j] = []
+            albumreps[indrep].albums[i][j] = []
     row = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[index].cover)
-        albumreps[0].append_Cover(row, col, img)
+        albumreps[indrep].append_Cover(row, col, img)
         titlepara = Paragraph(albums[index].title, titleStyle)
         genrepara = Paragraph(albums[index].genre, genreStyle)
         artistpara = Paragraph(albums[index].artist, artistStyle)
         yearpara = Paragraph(albums[index].year, yearStyle)
-        print(index, albums[index].title, col)
         index = index + 1
         titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
         titlegenreartistyeartable.setStyle(albumStyle)
-        albumreps[0].append_Table(row, col, titlegenreartistyeartable)
+        albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
     print(len(albumreps))
     tbl_data = albumreps[0].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=[1.6 * inch])
     storypdf.append(tbl)
     doc.build(storypdf)
-    albumreps[0].clear()
+    albumreps[indrep].clear()
     print("len albums", len(albumreps[0].albums))
     return
 
