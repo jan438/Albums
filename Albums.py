@@ -104,19 +104,21 @@ def fillAlbumReport(count):
     for i in range(rowsalbumreport):
         for j in range(columsalbumreport):
             albumreps[indrep].albums[i][j] = []
-    row = 0
     index = 0
-    for col in range(columsalbumreport):
-        img = lookupCover(albums[index].cover)
-        albumreps[indrep].append_Cover(row, col, img)
-        titlepara = Paragraph(albums[index].title, titleStyle)
-        genrepara = Paragraph(albums[index].genre, genreStyle)
-        artistpara = Paragraph(albums[index].artist, artistStyle)
-        yearpara = Paragraph(albums[index].year, yearStyle)
-        index += 1
-        titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
-        titlegenreartistyeartable.setStyle(albumStyle)
-        albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
+    for row in range(rowsalbumreport):
+        if row == 1:
+            break
+        for col in range(columsalbumreport):
+            img = lookupCover(albums[index].cover)
+            albumreps[indrep].append_Cover(row, col, img)
+            titlepara = Paragraph(albums[index].title, titleStyle)
+            genrepara = Paragraph(albums[index].genre, genreStyle)
+            artistpara = Paragraph(albums[index].artist, artistStyle)
+            yearpara = Paragraph(albums[index].year, yearStyle)
+            index += 1
+            titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
+            titlegenreartistyeartable.setStyle(albumStyle)
+            albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
     print(len(albumreps))
     tbl_data = albumreps[indrep].tabledata()
     tbl = Table(tbl_data, repeatRows=0, colWidths=columsalbumreport * [1.6 * inch], rowHeights=rowsalbumreport * [2.0 * inch] )
