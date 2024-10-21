@@ -46,7 +46,7 @@ yearStyle = ParagraphStyle('year',
 genreStyle = ParagraphStyle('genre',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
-    lrading = 9,
+    leading = 9,
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
