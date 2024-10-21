@@ -108,6 +108,8 @@ def fillAlbumReport(count):
     for row in range(rowsalbumreport):
         if row == 1:
             col = 0
+            img = lookupCover(albums[index].cover)
+            albumreps[indrep].append_Cover(row, col, img)
             titlepara = Paragraph(albums[index].title, titleStyle)
             genrepara = Paragraph(albums[index].genre, genreStyle)
             artistpara = Paragraph(albums[index].artist, artistStyle)
