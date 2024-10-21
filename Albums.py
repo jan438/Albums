@@ -101,15 +101,10 @@ def fillAlbumReport(count):
     storypdf=[]
     albumreps.append(AlbumReport())
     indrep = 0
-    index = 0
     for i in range(rowsalbumreport):
         for j in range(columsalbumreport):
             albumreps[indrep].albums[i][j] = []
     row = 0
-    for row in range(rowsalbumreport):
-        for col in range(columsalbumreport):
-            print(albums[index].title)
-            index += 1
     index = 0
     for col in range(columsalbumreport):
         img = lookupCover(albums[index].cover)
