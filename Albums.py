@@ -108,6 +108,12 @@ def fillAlbumReport(count):
     for row in range(rowsalbumreport):
         if row == 1:
             print("Hallo", albums[index].title)
+            index += 1
+            print("Hallo", albums[index].title)
+            index += 1
+            print("Hallo", albums[index].title)
+            index += 1
+            print("Hallo", albums[index].title)
             break
         for col in range(columsalbumreport):
             img = lookupCover(albums[index].cover)
