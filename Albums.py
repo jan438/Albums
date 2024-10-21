@@ -118,7 +118,9 @@ def fillAlbumReport(count):
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
             col += 1
-            index += 1
+            index +=1
+            img = lookupCover(albums[4].cover)
+            albumreps[indrep].append_Cover(row, col, img)
             titlepara = Paragraph(albums[index].title, titleStyle)
             genrepara = Paragraph(albums[index].genre, genreStyle)
             artistpara = Paragraph(albums[index].artist, artistStyle)
@@ -127,7 +129,9 @@ def fillAlbumReport(count):
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
             col += 1
-            index += 1
+            index +=1
+            img = lookupCover(albums[4].cover)
+            albumreps[indrep].append_Cover(row, col, img)
             titlepara = Paragraph(albums[index].title, titleStyle)
             genrepara = Paragraph(albums[index].genre, genreStyle)
             artistpara = Paragraph(albums[index].artist, artistStyle)
@@ -136,7 +140,9 @@ def fillAlbumReport(count):
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
             col += 1
-            index += 1
+            index +=1
+            img = lookupCover(albums[4].cover)
+            albumreps[indrep].append_Cover(row, col, img)
             titlepara = Paragraph(albums[index].title, titleStyle)
             genrepara = Paragraph(albums[index].genre, genreStyle)
             artistpara = Paragraph(albums[index].artist, artistStyle)
@@ -144,6 +150,7 @@ def fillAlbumReport(count):
             titlegenreartistyeartable = Table([[titlepara, genrepara], [artistpara, yearpara]], colWidths=[1.0 * inch, 0.5 * inch],  rowHeights=[0.3 * inch, 0.3 * inch])
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
+            index +=1
             break
         for col in range(columsalbumreport):
             img = lookupCover(albums[index].cover)
