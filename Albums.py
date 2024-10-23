@@ -97,7 +97,7 @@ def fillAlbumReport(count):
     print("fillAlbumReport", count)
     albumreps = []
     albumreportname = "PDF/Album" + str(0) + ".pdf"
-    doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=5, leftMargin=5, topMargin=5, bottomMargin=5)
+    doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=0, leftMargin=0, topMargin=0, bottomMargin=0)
     storypdf=[]
     albumreps.append(AlbumReport())
     indrep = 0
