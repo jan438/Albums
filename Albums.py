@@ -85,8 +85,8 @@ class Album:
 
 def lookupCover(cover):
     img = Image("Covers/" + cover)
-    img.drawHeight = 1.0 * inch
-    img.drawWidth = 1.0 * inch
+    img.drawHeight = 1.4 * inch
+    img.drawWidth = 1.4 * inch
     img.hAlign = TA_CENTER
     return img
 
@@ -112,7 +112,7 @@ def fillAlbumReport(count):
             artistpara = Paragraph(albums[index].artist, artistStyle)
             yearpara = Paragraph(albums[index].year, yearStyle)
             index += 1
-            titlegenreartistyeartable = Table([[img], [titlepara]])
+            titlegenreartistyeartable = Table([[img], [titlepara], [yearpara]])
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
     print("Len albumreps", len(albumreps))
