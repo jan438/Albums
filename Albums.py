@@ -19,7 +19,7 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
 rowsalbumreport = 2
-columsalbumreport = 4
+columsalbumreport = 5
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('title', 
@@ -71,8 +71,8 @@ class AlbumReport:
 
     def tabledata(self):
         return [
-        [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3]],
-        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3]]
+        [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3], self.albums[0][4]],
+        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3], self.albums[1][4]]
         ]
 
 class Album:
@@ -85,8 +85,8 @@ class Album:
 
 def lookupCover(cover):
     img = Image("Covers/" + cover)
-    img.drawHeight = 1.5 * inch
-    img.drawWidth = 1.5 * inch
+    img.drawHeight = 1.0 * inch
+    img.drawWidth = 1.0 * inch
     img.hAlign = TA_CENTER
     return img
 
