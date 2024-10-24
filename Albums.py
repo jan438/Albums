@@ -59,9 +59,6 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
 class AlbumReport:
     albums = [[0 for i in range(columsalbumreport)] for j in range(rowsalbumreport)] 
 
-    def append_Cover(self, row, col, cover):
-        self.albums[row][col].append(cover)
-
     def append_Table(self, row, col, table):
         self.albums[row][col].append(table)
 
