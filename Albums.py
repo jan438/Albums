@@ -107,6 +107,8 @@ def fillAlbumReport(count):
     index = 0
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
+            print(albums[index].title)
+            key = input("Wait")
             img = lookupCover(albums[index].cover)
             albumreps[indrep].append_Cover(row, col, img)
             titlepara = Paragraph(albums[index].title, titleStyle)
