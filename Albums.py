@@ -101,9 +101,9 @@ def fillAlbumReport(count):
     storypdf=[]
     albumreps.append(AlbumReport())
     indrep = 0
-    for i in range(rowsalbumreport):
-        for j in range(columsalbumreport):
-            albumreps[indrep].albums[i][j] = []
+    for row in range(rowsalbumreport):
+        for col in range(columsalbumreport):
+            albumreps[indrep].albums[row][col] = []
     index = 0
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
