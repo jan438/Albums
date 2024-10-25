@@ -108,10 +108,9 @@ def fillAlbumReport(count):
             key = input("Wait")
             img = lookupCover(albums[index].cover)
             artisttitlepara = Paragraph(albums[index].artist + "," + albums[index].title, titleStyle)
-            genrepara = Paragraph(albums[index].genre, genreStyle)
-            yearpara = Paragraph(albums[index].year, yearStyle)
+            yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, genreStyle)
             index += 1
-            titlegenreartistyeartable = Table([[img], [artisttitlepara], [yearpara]])
+            titlegenreartistyeartable = Table([[img], [artisttitlepara], [yeargenrepara]])
             titlegenreartistyeartable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, titlegenreartistyeartable)
     print("Len albumreps", len(albumreps))
