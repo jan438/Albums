@@ -22,28 +22,14 @@ rowsalbumreport = 2
 columsalbumreport = 5
 
 styles = getSampleStyleSheet()
-titleStyle = ParagraphStyle('title', 
+artisttitleStyle = ParagraphStyle('artisttitle', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
-artistStyle = ParagraphStyle('artist',
-    parent=styles['Normal'],
-    fontName = albumfont, fontSize = 10,
-    leading = 11,
-    borderWidth = 0, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0,
-    borderPadding = 0)
-yearStyle = ParagraphStyle('year', 
-    parent=styles['Normal'],
-    fontName = albumfont, fontSize = 8,
-    leading = 9,
-    borderWidth = 0, borderColor = black,
-    spaceBefore = 0, spaceAfter = 0,
-    borderPadding = 0)
-genreStyle = ParagraphStyle('genre',
+yeargenreStyle = ParagraphStyle('yeargenre', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     leading = 9,
@@ -107,8 +93,8 @@ def fillAlbumReport(count):
             #print(albums[index].title)
             #key = input("Wait")
             img = lookupCover(albums[index].cover)
-            artisttitlepara = Paragraph(albums[index].artist + "," + albums[index].title, titleStyle)
-            yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, genreStyle)
+            artisttitlepara = Paragraph(albums[index].artist + "," + albums[index].title, artisttitleStyle)
+            yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, yeargenreStyle)
             index += 1
             imartiyegetable = Table([[img], [artisttitlepara], [yeargenrepara]], colWidths=None, rowHeights=[1.4 * inch, 0.4 * inch, 0.4 * inch])
             imartiyegetable.setStyle(albumStyle)
