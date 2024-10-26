@@ -43,7 +43,7 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('RIGHTPADDING',(0,0),(-1,-1), 0)
 ]
 
-pageStyle = [('BACKGROUND',(0,0),(-1,-1), yellow)
+pageStyle = [('BACKGROUND',(0,0),(-1,-1), white)
 ]
 
 class AlbumReport:
