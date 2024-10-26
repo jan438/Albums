@@ -42,7 +42,8 @@ yeargenreStyle = ParagraphStyle('yeargenre',
 
 albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('LEFTPADDING',(0,0),(-1,-1), 0),
-    ('RIGHTPADDING',(0,0),(-1,-1), 0)
+    ('RIGHTPADDING',(0,0),(-1,-1), 0),
+    ("BACKGROUND",(0,0),(-1,-1), white)
 ]
 
 pageStyle = [('BACKGROUND',(0,0),(-1,-1), white)
