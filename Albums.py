@@ -20,7 +20,7 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 albumfont = "Ubuntu"
 rowsalbumreport = 2
 columsalbumreport = 5
-imgheight = 1.4 * inch
+imgheight = 1.5 * inch
 
 styles = getSampleStyleSheet()
 artisttitleStyle = ParagraphStyle('artisttitle', 
@@ -106,7 +106,7 @@ def fillAlbumReport(count):
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
             yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, yeargenreStyle)
             index += 1
-            sp = Spacer(0.2 * inch, 0.2 * inch)
+            sp = Spacer(0.1 * inch, 0.1 * inch)
             imartiyegetable = Table([[img, sp], [artisttitlepara], [yeargenrepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.4 * inch, 0.4 * inch])
             imartiyegetable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, imartiyegetable)
