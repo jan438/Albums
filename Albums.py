@@ -27,7 +27,7 @@ artisttitleStyle = ParagraphStyle('artisttitle',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
     leading = 11,
-    textColor = black,
+    textColor = white,
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
@@ -35,7 +35,7 @@ yeargenreStyle = ParagraphStyle('yeargenre',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 8,
     leading = 9,
-    textColor = black,
+    textColor = white,
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
@@ -43,10 +43,10 @@ yeargenreStyle = ParagraphStyle('yeargenre',
 albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('LEFTPADDING',(0,0),(-1,-1), 0),
     ('RIGHTPADDING',(0,0),(-1,-1), 0),
-    ("BACKGROUND",(0,0),(-1,-1), white)
+    ("BACKGROUND",(0,0),(-1,-1), black)
 ]
 
-pageStyle = [('BACKGROUND',(0,0),(-1,-1), white)
+pageStyle = [('BACKGROUND',(0,0),(-1,-1), black)
 ]
 
 class AlbumReport:
@@ -101,8 +101,8 @@ def fillAlbumReport(count):
             #key = input("Wait")
             img = lookupCover(albums[index].cover)
             artisttitlepara = Paragraph(
-                "<font textColor = black size = 9>"  + albums[index].artist + "</font>,‘" + 
-                "<font textColor = black>" + albums[index].title + "</font>" + "’", artisttitleStyle)
+                "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
+                "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
             yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, yeargenreStyle)
             index += 1
             sp = Spacer(0.2 * inch, 0.2 * inch)
