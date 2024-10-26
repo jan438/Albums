@@ -93,7 +93,7 @@ def fillAlbumReport(count):
             #print(albums[index].title)
             #key = input("Wait")
             img = lookupCover(albums[index].cover)
-            artisttitlepara = Paragraph(albums[index].artist + ",‘" + albums[index].title + "’", artisttitleStyle)
+            artisttitlepara = Paragraph("<font textColor = black>"  + albums[index].artist + "</font>,‘" + albums[index].title + "’", artisttitleStyle)
             yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, yeargenreStyle)
             index += 1
             imartiyegetable = Table([[img], [artisttitlepara], [yeargenrepara]], colWidths=None, rowHeights=[1.4 * inch, 0.4 * inch, 0.4 * inch])
