@@ -28,6 +28,7 @@ artisttitleStyle = ParagraphStyle('artisttitle',
     fontName = albumfont, fontSize = 10,
     leading = 11,
     textColor = white,
+    hyphenationLang="en_GB",
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
