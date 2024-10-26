@@ -43,6 +43,9 @@ albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('RIGHTPADDING',(0,0),(-1,-1), 0)
 ]
 
+pageStyle = [('BACKGROUND',(0,0),(-1,-1), yellow)
+]
+
 class AlbumReport:
     albums = [[0 for i in range(columsalbumreport)] for j in range(rowsalbumreport)] 
 
@@ -106,6 +109,7 @@ def fillAlbumReport(count):
     print("Len albumreps", len(albumreps))
     tbl_data = albumreps[indrep].tabledata()
     tbl = Table(tbl_data)
+    tbl.setStyle(pageStyle)
     storypdf.append(tbl)
     doc.build(storypdf)
     albumreps[indrep].clear()
