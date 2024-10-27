@@ -111,10 +111,11 @@ def fillAlbumReport(count):
             artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
-            found = lookupRank("374.png")
+            rank = albums[index].rank
+            found = lookupRank(rank + ".png")
             print(found)
             if found:
-                rankimg = "Ranks/374.png"
+                rankimg = "Ranks/" + rank + ".png"
             key = input("Wait1")
             yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
             key = input("Wait2")
