@@ -116,7 +116,7 @@ def fillAlbumReport(count):
             yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
             index += 1
             sp = Spacer(0.1 * inch, 0.1 * inch)
-            imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.4 * inch])
+            imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.35 * inch])
             imartiyegetable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, imartiyegetable)
     print("Len albumreps", len(albumreps))
