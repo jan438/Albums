@@ -70,12 +70,13 @@ class AlbumReport:
         ]
 
 class Album:
-    def __init__(self, title, artist, cover, year, genre):
+    def __init__(self, title, artist, cover, year, genre, rank):
         self.title = title
         self.artist = artist
         self.cover = cover
         self.year = year
         self.genre = genre
+        self.rank = rank
 
 def lookupCover(cover):
     img = Image("Covers/" + cover)
@@ -136,10 +137,10 @@ with open(file_to_open, 'r') as file:
             albumdata.append(row)
         count += 1
 for i in range(len(albumdata)):
-    albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2], albumdata[i][3], albumdata[i][4]))
+    albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
 print("Length albums", len(albums))
 for i in range(len(albums)):
-    print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover, albums[i].year, albums[i].genre)
+    print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover, albums[i].year, albums[i].genre, albums[i].rank)
 pdfmetrics.registerFont(TTFont('Ubuntu', 'Ubuntu-Regular.ttf'))
 pdfmetrics.registerFont(TTFont('UbuntuBold', 'Ubuntu-Bold.ttf'))
 pdfmetrics.registerFont(TTFont('UbuntuItalic', 'Ubuntu-Italic.ttf'))
