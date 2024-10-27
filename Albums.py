@@ -104,7 +104,7 @@ def fillAlbumReport(count):
             artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
-            rankimg = "Covers/rank.png"
+            rankimg = "Covers/374.png"
             yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
             index += 1
             sp = Spacer(0.1 * inch, 0.1 * inch)
