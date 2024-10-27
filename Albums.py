@@ -87,8 +87,6 @@ def lookupCover(cover):
 
 def lookupRank(rank):
     img = Image("Ranks/" + rank)
-    print(img)
-    key = input("Wait")
     return True
 
 def fillAlbumReport(count):
@@ -113,12 +111,9 @@ def fillAlbumReport(count):
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
             rank = albums[index].rank
             found = lookupRank(rank + ".png")
-            print(found)
             if found:
                 rankimg = "Ranks/" + rank + ".png"
-            key = input("Wait1")
             yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
-            key = input("Wait2")
             index += 1
             sp = Spacer(0.1 * inch, 0.1 * inch)
             imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.4 * inch])
