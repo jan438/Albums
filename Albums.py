@@ -104,7 +104,8 @@ def fillAlbumReport(count):
             artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
-            yeargenrepara = Paragraph(albums[index].year + " " + albums[index].genre, yeargenreStyle)
+            rankimg = "Covers/rank.png"
+            yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='10' height='10' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
             index += 1
             sp = Spacer(0.1 * inch, 0.1 * inch)
             imartiyegetable = Table([[img, sp], [artisttitlepara], [yeargenrepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.4 * inch, 0.4 * inch])
