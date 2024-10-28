@@ -18,7 +18,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
-rowsalbumreport = 3
+rowsalbumreport = 4
 columsalbumreport = 5
 imgheight = 1.5 * inch
 
@@ -67,7 +67,8 @@ class AlbumReport:
         return [
         [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3], self.albums[0][4]],
         [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3], self.albums[1][4]],
-        [self.albums[2][0], self.albums[2][1], self.albums[2][2], self.albums[2][3], self.albums[2][4]]
+        [self.albums[2][0], self.albums[2][1], self.albums[2][2], self.albums[2][3], self.albums[2][4]],
+        [self.albums[3][0], self.albums[3][1], self.albums[3][2], self.albums[3][3], self.albums[3][4]]
         ]
 
 class Album:
