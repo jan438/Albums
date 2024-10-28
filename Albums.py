@@ -18,7 +18,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
 albumfont = "Ubuntu"
-rowsalbumreport = 2
+rowsalbumreport = 3
 columsalbumreport = 5
 imgheight = 1.5 * inch
 
@@ -66,7 +66,8 @@ class AlbumReport:
     def tabledata(self):
         return [
         [self.albums[0][0], self.albums[0][1], self.albums[0][2], self.albums[0][3], self.albums[0][4]],
-        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3], self.albums[1][4]]
+        [self.albums[1][0], self.albums[1][1], self.albums[1][2], self.albums[1][3], self.albums[1][4]],
+        [self.albums[2][0], self.albums[2][1], self.albums[2][2], self.albums[2][3], self.albums[2][4]]
         ]
 
 class Album:
@@ -103,8 +104,8 @@ def fillAlbumReport(count):
     index = 0
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
-            #print(albums[index].title)
-            #key = input("Wait")
+            print(row, col, albums[index].title)
+            key = input("Wait")
             img = lookupCover(albums[index].cover)
             artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
@@ -119,6 +120,7 @@ def fillAlbumReport(count):
             imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.35 * inch])
             imartiyegetable.setStyle(albumStyle)
             albumreps[indrep].append_Table(row, col, imartiyegetable)
+    key = input("Wait")
     print("Len albumreps", len(albumreps))
     tbl_data = albumreps[indrep].tabledata()
     tbl = Table(tbl_data)
