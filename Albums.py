@@ -105,6 +105,8 @@ def fillAlbumReport(count):
     index = 0
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
+            if index >= count:
+                break
             print(row, col, albums[index].title)
             key = input("Wait")
             img = lookupCover(albums[index].cover)
