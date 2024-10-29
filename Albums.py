@@ -113,7 +113,7 @@ def fillAlbumReport(count):
             for col in range(columsalbumreport):
                 if index >= count:
                     break
-                print(row, col, albums[index].title)
+                print(row, col, albums[index].title, "indrep", indrep)
                 key = input("Wait")
                 img = lookupCover(albums[index].cover)
                 artisttitlepara = Paragraph(
