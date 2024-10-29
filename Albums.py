@@ -129,7 +129,7 @@ def fillAlbumReport(count):
                 imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.35 * inch])
                 imartiyegetable.setStyle(albumStyle)
                 albumreps[indrep].append_Table(row, col, imartiyegetable)
-        key = input("Wait")
+        key = input("Wait build")
         tbl_data = albumreps[indrep].tabledata()
         tbl = Table(tbl_data)
         tbl.setStyle(pageStyle)
