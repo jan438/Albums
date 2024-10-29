@@ -135,6 +135,8 @@ def fillAlbumReport(count):
     storypdf.append(tbl)
     doc.build(storypdf)
     albumreps[indrep].clear()
+    storypdf=[]
+    indrep += 1
     return
 
 if sys.platform[0] == 'l':
