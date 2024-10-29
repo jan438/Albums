@@ -96,47 +96,49 @@ def lookupRank(rank):
 def fillAlbumReport(count):
     print("fillAlbumReport", count)
     albumreps = []
-    albumreportname = "PDF/Album" + str(0) + ".pdf"
-    doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=0, leftMargin=0, topMargin=0, bottomMargin=0)
-    storypdf=[]
-    albumreps.append(AlbumReport())
+    index = 0
+    countalbumReports = math.ceil(count / (rowsalbumreport * columsalbumreport))
+    for i in range(countalbumReports):
+        albumreps.append(AlbumReport())
+    print(count, rowsalbumreport, columsalbumreport, countalbumReports)
     indrep = 0
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
             albumreps[indrep].albums[row][col] = []
-    index = 0
-    countalbumReports = math.ceil(count / (rowsalbumreport * columsalbumreport))
-    print(count, rowsalbumreport, columsalbumreport, countalbumReports)
-    for row in range(rowsalbumreport):
-        for col in range(columsalbumreport):
-            if index >= count:
-                break
-            print(row, col, albums[index].title)
-            key = input("Wait")
-            img = lookupCover(albums[index].cover)
-            artisttitlepara = Paragraph(
+    for i in range(countalbumReports):
+        albumreportname = "PDF/Album" + str(i) + ".pdf"
+        doc = SimpleDocTemplate(albumreportname, pagesize=portrait(A4), rightMargin=0, leftMargin=0, topMargin=0, bottomMargin=0)
+        storypdf=[]
+        for row in range(rowsalbumreport):
+            for col in range(columsalbumreport):
+                if index >= count:
+                    break
+                print(row, col, albums[index].title)
+                key = input("Wait")
+                img = lookupCover(albums[index].cover)
+                artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
-            rank = albums[index].rank
-            found = lookupRank(rank + ".png")
-            if found:
-                rankimg = "Ranks/" + rank + ".png"
-            yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
-            index += 1
-            sp = Spacer(0.1 * inch, 0.1 * inch)
-            imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.35 * inch])
-            imartiyegetable.setStyle(albumStyle)
-            albumreps[indrep].append_Table(row, col, imartiyegetable)
-    key = input("Wait")
-    print("Len albumreps", len(albumreps))
-    tbl_data = albumreps[indrep].tabledata()
-    tbl = Table(tbl_data)
-    tbl.setStyle(pageStyle)
-    storypdf.append(tbl)
-    doc.build(storypdf)
-    albumreps[indrep].clear()
-    storypdf=[]
-    indrep += 1
+                rank = albums[index].rank
+                found = lookupRank(rank + ".png")
+                if found:
+                    rankimg = "Ranks/" + rank + ".png"
+                yeargenrepara = Paragraph(albums[index].year + " " + "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " "+albums[index].genre, yeargenreStyle)
+                index += 1
+                sp = Spacer(0.1 * inch, 0.1 * inch)
+                imartiyegetable = Table([[img, sp], [yeargenrepara], [artisttitlepara]], colWidths=[1.6 * inch], rowHeights=[imgheight, 0.15 * inch, 0.35 * inch])
+                imartiyegetable.setStyle(albumStyle)
+                albumreps[indrep].append_Table(row, col, imartiyegetable)
+        key = input("Wait")
+        print("Len albumreps", len(albumreps))
+        tbl_data = albumreps[indrep].tabledata()
+        tbl = Table(tbl_data)
+        tbl.setStyle(pageStyle)
+        storypdf.append(tbl)
+        doc.build(storypdf)
+        albumreps[indrep].clear()
+        storypdf=[]
+        indrep += 1
     return
 
 if sys.platform[0] == 'l':
