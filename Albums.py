@@ -1,6 +1,7 @@
 import os
 import sys
 import csv
+import math
 import unicodedata
 from pathlib import Path
 from datetime import datetime, date, timedelta
@@ -104,6 +105,8 @@ def fillAlbumReport(count):
         for col in range(columsalbumreport):
             albumreps[indrep].albums[row][col] = []
     index = 0
+    countalbumReports = math.ceil(count / (rowsalbumreport * columsalbumreport))
+    print(count, rowsalbumreport, columsalbumreport, countalbumReports)
     for row in range(rowsalbumreport):
         for col in range(columsalbumreport):
             if index >= count:
