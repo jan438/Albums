@@ -24,6 +24,14 @@ columsalbumreport = 5
 imgheight = 1.5 * inch
 
 styles = getSampleStyleSheet()
+titleStyle = ParagraphStyle('tit',
+    parent=styles['Normal'],
+    fontName = albumfont, fontSize = 13, 
+    textColor = black, 
+    alignment=TA_CENTER, 
+    leading = 14, 
+    spaceAfter = 3)
+
 artisttitleStyle = ParagraphStyle('artisttitle', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
@@ -153,6 +161,7 @@ def fillAlbumReport(count):
         tbl_data = albumreps[indrep].tabledata()
         tbl = Table(tbl_data)
         tbl.setStyle(pageStyle)
+        storypdf.append(Paragraph("RS 500", titleStyle))
         storypdf.append(tbl)
         doc.build(storypdf)
         albumreps[indrep].clear()
