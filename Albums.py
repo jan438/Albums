@@ -85,14 +85,12 @@ class Album:
 
 def processreport():
     merger = PdfWriter()
-    key = input("merger")
     for i in range(10):
         print(i)
         if os.path.isfile("PDF/Album" + str(i) + ".pdf"):
             inputpdf = open("PDF/Album" + str(i) + ".pdf", "rb")
             merger.append(inputpdf)
             inputpdf.close()
-            print("merger", i)
         else:
             break
     output = open("PDF/Total.pdf", "wb")
