@@ -83,6 +83,26 @@ class Album:
         self.genre = genre
         self.rank = rank
 
+def processreport():
+    merger = PdfWriter()
+    key = input("merger")
+    for i in range(10):
+        print(i)
+        if os.path.isfile("PDF/Album" + str(i) + ".pdf"):
+            inputpdf = open("PDF/Album" + str(i) + ".pdf", "rb")
+            merger.append(inputpdf)
+            inputpdf.close()
+            print("merger", i)
+        else:
+            break
+    output = open("PDF/Total.pdf", "wb")
+    merger.write(output)
+    merger.close()
+    output.close()
+    for i in range(10):
+        if os.path.isfile("PDF/Album" + str(i) + ".pdf"):
+            os.remove("PDF/Album" + str(i) + ".pdf")
+
 def lookupCover(cover):
     img = Image("Covers/" + cover)
     img.drawHeight = imgheight
@@ -115,7 +135,7 @@ def fillAlbumReport(count):
                 if index >= count:
                     break
                 print(row, col, albums[index].title, "indrep", indrep)
-                key = input("Wait")
+                #key = input("Wait")
                 img = lookupCover(albums[index].cover)
                 artisttitlepara = Paragraph(
                 "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
@@ -171,4 +191,5 @@ pdfmetrics.registerFont(TTFont('LiberationSerifBold', 'LiberationSerif-Bold.ttf'
 pdfmetrics.registerFont(TTFont('LiberationSerifItalic', 'LiberationSerif-Italic.ttf'))
 pdfmetrics.registerFont(TTFont('LiberationSerifBoldItalic', 'LiberationSerif-BoldItalic.ttf'))
 fillAlbumReport(len(albums))
+processreport()
 key = input("Wait")
