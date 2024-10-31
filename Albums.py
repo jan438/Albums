@@ -58,11 +58,12 @@ class AlbumReport:
         self.albums[row][col].append(table)
 
     def clear(self):
-        for a in self.albums:
-            try:
-                a.pop()
-            except IndexError:
-                print(a)
+        for r in self.albums:
+            for c in r:
+                try:
+                    c.pop()
+                except IndexError:
+                    print(c)
 
     def tabledata(self):
         return [
