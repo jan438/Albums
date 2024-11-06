@@ -92,7 +92,7 @@ class Album:
 
 def processreport():
     merger = PdfWriter()
-    for i in range(10):
+    for i in range(20):
         print(i)
         if os.path.isfile("PDF/Album" + str(i) + ".pdf"):
             inputpdf = open("PDF/Album" + str(i) + ".pdf", "rb")
