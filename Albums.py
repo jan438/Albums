@@ -174,14 +174,14 @@ if sys.platform[0] == 'w':
     path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
 os.chdir(path)
 params = sys.argv[1:]
+count = 0
+albumdata = []
+albums = []
 if len(params) > 0:
     if params[0] == "1":
         file_to_open = "Data/Albums25/Albums001-025.csv"   
 else:
     file_to_open = "Data/Albums.csv"
-count = 0
-albumdata = []
-albums = []
 with open(file_to_open, 'r') as file:
     csvreader = csv.reader(file, delimiter = ';')
     for row in csvreader:
