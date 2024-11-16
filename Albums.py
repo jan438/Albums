@@ -179,15 +179,21 @@ albumdata = []
 albums = []
 if len(params) > 0:
     if params[0] == "1":
-        file_to_open = "Data/Albums25/Albums001-025.csv"   
+        file_to_open = "Data/Albums25/Albums001-025.csv" 
+        with open(file_to_open, 'r') as file:
+            csvreader = csv.reader(file, delimiter = ';')
+            for row in csvreader:
+                if count > 0:
+                    albumdata.append(row)
+                count += 1 
 else:
     file_to_open = "Data/Albums.csv"
-with open(file_to_open, 'r') as file:
-    csvreader = csv.reader(file, delimiter = ';')
-    for row in csvreader:
-        if count > 0:
-            albumdata.append(row)
-        count += 1
+    with open(file_to_open, 'r') as file:
+        csvreader = csv.reader(file, delimiter = ';')
+        for row in csvreader:
+            if count > 0:
+                albumdata.append(row)
+            count += 1
 for i in range(len(albumdata)):
     albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
 print("Length albums", len(albums))
