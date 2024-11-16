@@ -176,8 +176,9 @@ os.chdir(path)
 params = sys.argv[1:]
 if len(params) > 0:
     if params[0] == "1":
-        print("Hallo")
-file_to_open = "Data/Albums.csv"
+        file_to_open = "Data/Albums25/Albums001-025.csv"   
+else:
+    file_to_open = "Data/Albums.csv"
 count = 0
 albumdata = []
 albums = []
