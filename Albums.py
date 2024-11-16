@@ -203,7 +203,7 @@ if len(params) > 0:
                 if count > 0:
                     albumdata.append(row)
                 count += 1
-            file_to_open = "Data/Albums25/Albums076-100.csv" 
+        file_to_open = "Data/Albums25/Albums076-100.csv" 
         with open(file_to_open, 'r') as file:
             csvreader = csv.reader(file, delimiter = ';')
             count = 0
@@ -211,7 +211,7 @@ if len(params) > 0:
                 if count > 0:
                     albumdata.append(row)
                 count += 1
-            file_to_open = "Data/Albums25/Albums101-125.csv" 
+        file_to_open = "Data/Albums25/Albums101-125.csv" 
         with open(file_to_open, 'r') as file:
             csvreader = csv.reader(file, delimiter = ';')
             count = 0
