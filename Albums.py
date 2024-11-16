@@ -174,9 +174,7 @@ if sys.platform[0] == 'w':
     path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
 os.chdir(path)
 params = sys.argv[1:]
-print("Len params", len(params))
 if len(params) > 0:
-    print("Parmameters", params[0], *params)
     if params[0] == "1":
         print("Hallo")
 file_to_open = "Data/Albums.csv"
