@@ -267,6 +267,22 @@ if len(params) > 0:
                 if count > 0:
                     albumdata.append(row)
                 count += 1
+        file_to_open = "Data/Albums25/Albums276-300.csv" 
+        with open(file_to_open, 'r') as file:
+            csvreader = csv.reader(file, delimiter = ';')
+            count = 0
+            for row in csvreader:
+                if count > 0:
+                    albumdata.append(row)
+                count += 1
+        file_to_open = "Data/Albums25/Albums301-325.csv" 
+        with open(file_to_open, 'r') as file:
+            csvreader = csv.reader(file, delimiter = ';')
+            count = 0
+            for row in csvreader:
+                if count > 0:
+                    albumdata.append(row)
+                count += 1
 else:
     file_to_open = "Data/Albums.csv"
     with open(file_to_open, 'r') as file:
