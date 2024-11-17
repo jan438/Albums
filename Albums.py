@@ -193,6 +193,10 @@ if len(params) > 0:
         processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums026-050.csv" 
         processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums051-075.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums076-100.csv" 
+        processcsv(file_to_open)
 else:
     file_to_open = "Data/Albums.csv"
     with open(file_to_open, 'r') as file:
