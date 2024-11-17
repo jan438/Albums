@@ -205,6 +205,22 @@ if len(params) > 0:
         processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums176-200.csv" 
         processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums201-225.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums226-250.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums251-275.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums276-300.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums301-325.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums326-350.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums351-375.csv" 
+        processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums376-400.csv" 
+        processcsv(file_to_open)
 else:
     file_to_open = "Data/Albums.csv"
     with open(file_to_open, 'r') as file:
