@@ -191,21 +191,8 @@ if len(params) > 0:
     if params[0] == "1":
         file_to_open = "Data/Albums25/Albums001-025.csv" 
         processcsv(file_to_open)
-        ##with open(file_to_open, 'r') as file:
-            ##csvreader = csv.reader(file, delimiter = ';')
-            ##count = 0
-            ##for row in csvreader:
-                ##if count > 0:
-                    ##albumdata.append(row)
-                ##count += 1
         file_to_open = "Data/Albums25/Albums026-050.csv" 
-        with open(file_to_open, 'r') as file:
-            csvreader = csv.reader(file, delimiter = ';')
-            count = 0
-            for row in csvreader:
-                if count > 0:
-                    albumdata.append(row)
-                count += 1
+        processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums051-075.csv" 
         with open(file_to_open, 'r') as file:
             csvreader = csv.reader(file, delimiter = ';')
