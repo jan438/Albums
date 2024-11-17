@@ -110,7 +110,6 @@ def processreport():
             os.remove("PDF/Album" + str(i) + ".pdf")
 
 def processcsv(csvfile):
-    print("processcsv", csvfile, len(albumdata))
     with open(file_to_open, 'r') as file:
         csvreader = csv.reader(file, delimiter = ';')
         count = 0
@@ -223,12 +222,7 @@ if len(params) > 0:
         processcsv(file_to_open)
 else:
     file_to_open = "Data/Albums.csv"
-    with open(file_to_open, 'r') as file:
-        csvreader = csv.reader(file, delimiter = ';')
-        for row in csvreader:
-            if count > 0:
-                albumdata.append(row)
-            count += 1
+    processcsv(file_to_open)
 for i in range(len(albumdata)):
     albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
 print("Length albums", len(albums))
