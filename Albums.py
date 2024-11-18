@@ -118,6 +118,11 @@ def processcsv(csvfile):
                 albumdata.append(row)
             count += 1
 
+def processdiacritic(text):
+    processed = text
+    print("processdiacritic", text)
+    return processed
+
 def lookupCover(cover):
     img = Image("Covers/" + cover)
     img.drawHeight = imgheight
@@ -224,7 +229,9 @@ else:
     file_to_open = "Data/Albums.csv"
     processcsv(file_to_open)
 for i in range(len(albumdata)):
-    albums.append(Album(albumdata[i][0], albumdata[i][1], albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
+    title = processdiacritic(albumdata[i][0])
+    artist = processdiacritic(albumdata[i][1])
+    albums.append(Album(title, artist, albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
 print("Length albums", len(albums))
 for i in range(len(albums)):
     print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover, albums[i].year, albums[i].genre, albums[i].rank)
