@@ -23,6 +23,7 @@ rowsalbumreport = 5
 columsalbumreport = 5
 imgheight = 1.5 * inch
 albumdata = []
+loumlaut = "i"
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit',
@@ -91,6 +92,17 @@ class Album:
         self.genre = genre
         self.rank = rank
 
+def find_all_occurrences(line, sub, f, t):
+    index_of_occurrences = []
+    current_index = f
+    while True:
+        current_index = line.find(sub, current_index)
+        if current_index == -1 or current_index >= t:
+            return index_of_occurrences
+        else:
+            index_of_occurrences.append(current_index)
+            current_index += len(sub)
+
 def processreport():
     merger = PdfWriter()
     for i in range(20):
@@ -120,7 +132,8 @@ def processcsv(csvfile):
 
 def processdiacritic(text):
     processed = text
-    print("processdiacritic", text)
+    oumlauts = find_all_occurrences(text, loumlaut, 0, len(text))
+    print("processdiacritic", text, oumlauts)
     return processed
 
 def lookupCover(cover):
