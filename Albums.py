@@ -23,7 +23,7 @@ rowsalbumreport = 5
 columsalbumreport = 5
 imgheight = 1.5 * inch
 albumdata = []
-luumlautb1 = u"\xC3"
+luumlautb1 = u"\xC3\xBC"
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit',
