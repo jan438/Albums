@@ -23,7 +23,7 @@ rowsalbumreport = 5
 columsalbumreport = 5
 imgheight = 1.5 * inch
 albumdata = []
-loumlaut = "i"
+luumlautb1 = u"\xC3"
 
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit',
@@ -132,8 +132,8 @@ def processcsv(csvfile):
 
 def processdiacritic(text):
     processed = text
-    oumlauts = find_all_occurrences(text, loumlaut, 0, len(text))
-    print("processdiacritic", text, oumlauts)
+    uumlauts = find_all_occurrences(text, luumlautb1, 0, len(text))
+    print("processdiacritic", text, uumlauts)
     return processed
 
 def lookupCover(cover):
