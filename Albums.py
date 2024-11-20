@@ -107,6 +107,16 @@ class Album:
         self.genre = genre
         self.rank = rank
 
+def process_2bytesymbol(line, pos, wsymbol):
+    processed = line[:pos] + wsymbol + line[pos+2:]
+    return processed
+
+def process_2bytesymbols(line, pos, wsymbol):
+    processed = line
+    for i in range(len(pos), 0, -1):
+        processed = process_2bytesymbol(processed, pos[i-1], wsymbol)
+    return processed
+
 def find_all_occurrences(line, sub, f, t):
     index_of_occurrences = []
     current_index = f
