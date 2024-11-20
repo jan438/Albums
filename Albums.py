@@ -171,6 +171,8 @@ def processdiacritic(text):
     processed = process_2bytesymbols(processed, aaigus, waaigu)
     oaigus = find_all_occurrences(processed, loaigu, 0, len(processed))
     processed = process_2bytesymbols(processed, oaigus, woaigu)
+    acirconflexes = find_all_occurrences(processed, lacirconflexe, 0, len(processed))
+    processed = process_2bytesymbols(processed, acirconflexes, wacirconflexe)
     return processed
 
 def lookupCover(cover):
