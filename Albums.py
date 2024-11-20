@@ -157,8 +157,8 @@ def processcsv(csvfile):
 
 def processdiacritic(text):
     processed = text
-    uumlauts = find_all_occurrences(text, luumlaut, 0, len(text))
-    processed = process_2bytesymbols(text, uumlauts, wuumlaut)
+    uumlauts = find_all_occurrences(processed, luumlaut, 0, len(text))
+    processed = process_2bytesymbols(processed, uumlauts, wuumlaut)
     print("processdiacritic", text, uumlauts)
     return processed
 
