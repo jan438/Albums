@@ -161,6 +161,16 @@ def processdiacritic(text):
     processed = process_2bytesymbols(processed, uumlauts, wuumlaut)
     oumlauts = find_all_occurrences(processed, loumlaut, 0, len(processed))
     processed = process_2bytesymbols(processed, oumlauts, woumlaut)
+    eaigus = find_all_occurrences(processed, leaigu, 0, len(processed))
+    processed = process_2bytesymbols(processed, eaigus, weaigu)
+    agraves = find_all_occurrences(processed, lagrave, 0, len(processed))
+    processed = process_2bytesymbols(processed, agraves, wagrave)
+    iaigus = find_all_occurrences(processed, liaigu, 0, len(processed))
+    processed = process_2bytesymbols(processed, iaigus, wiaigu)
+    aaigus = find_all_occurrences(processed, laaigu, 0, len(processed))
+    processed = process_2bytesymbols(processed, aaigus, waaigu)
+    oaigus = find_all_occurrences(processed, loaigu, 0, len(processed))
+    processed = process_2bytesymbols(processed, oaigus, woaigu)
     return processed
 
 def lookupCover(cover):
