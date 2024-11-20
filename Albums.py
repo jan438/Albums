@@ -157,9 +157,10 @@ def processcsv(csvfile):
 
 def processdiacritic(text):
     processed = text
-    uumlauts = find_all_occurrences(processed, luumlaut, 0, len(text))
+    uumlauts = find_all_occurrences(processed, luumlaut, 0, len(processed))
     processed = process_2bytesymbols(processed, uumlauts, wuumlaut)
-    print("processdiacritic", text, uumlauts)
+    oumlauts = find_all_occurrences(processed, loumlaut, 0, len(processed))
+    processed = process_2bytesymbols(processed, oumlauts, woumlaut)
     return processed
 
 def lookupCover(cover):
