@@ -142,7 +142,7 @@ def processreport():
     merger.write(output)
     merger.close()
     output.close()
-    for i in range(10):
+    for i in range(20):
         if os.path.isfile("PDF/Album" + str(i) + ".pdf"):
             os.remove("PDF/Album" + str(i) + ".pdf")
 
