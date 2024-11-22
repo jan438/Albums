@@ -283,6 +283,8 @@ if len(params) > 0:
         processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums451-475.csv" 
         processcsv(file_to_open)
+        file_to_open = "Data/Albums25/Albums476-500.csv" 
+        processcsv(file_to_open)
 else:
     file_to_open = "Data/Albums.csv"
     processcsv(file_to_open)
