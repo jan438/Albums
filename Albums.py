@@ -288,6 +288,9 @@ if len(params) > 0:
     if params[0] == "1":
         file_to_open = "Data/Albums25/Albums001-025.csv" 
         processcsv(file_to_open)
+    if params[0] == "2":
+        file_to_open = "Data/Albums25/Albums026-050.csv" 
+        processcsv(file_to_open)
 if len(params) == 0:
     file_to_open = "Data/Albums.csv"
     processcsv(file_to_open)
