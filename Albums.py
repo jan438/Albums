@@ -291,6 +291,24 @@ if len(params) > 0:
     if params[0] == "2":
         file_to_open = "Data/Albums25/Albums026-050.csv" 
         processcsv(file_to_open)
+    if params[0] == "3":
+        file_to_open = "Data/Albums25/Albums051-075.csv" 
+        processcsv(file_to_open)
+    if params[0] == "4":
+        file_to_open = "Data/Albums25/Albums076-100.csv" 
+        processcsv(file_to_open)
+    if params[0] == "5":
+        file_to_open = "Data/Albums25/Albums101-125.csv" 
+        processcsv(file_to_open)
+    if params[0] == "6":
+        file_to_open = "Data/Albums25/Albums126-150.csv" 
+        processcsv(file_to_open)
+    if params[0] == "7":
+        file_to_open = "Data/Albums25/Albums151-175.csv" 
+        processcsv(file_to_open)
+    if params[0] == "8":
+        file_to_open = "Data/Albums25/Albums176-20.csv" 
+        processcsv(file_to_open)
 if len(params) == 0:
     file_to_open = "Data/Albums.csv"
     processcsv(file_to_open)
