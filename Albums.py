@@ -244,7 +244,7 @@ params = sys.argv[1:]
 count = 0
 albums = []
 if len(params) > 0:
-    if params[0] == "1":
+    if params[0] == "0":
         file_to_open = "Data/Albums25/Albums001-025.csv" 
         processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums026-050.csv" 
@@ -285,7 +285,10 @@ if len(params) > 0:
         processcsv(file_to_open)
         file_to_open = "Data/Albums25/Albums476-500.csv" 
         processcsv(file_to_open)
-else:
+    if params[0] == "1":
+        file_to_open = "Data/Albums25/Albums001-025.csv" 
+        processcsv(file_to_open)
+if len(params) == 0:
     file_to_open = "Data/Albums.csv"
     processcsv(file_to_open)
 for i in range(len(albumdata)):
