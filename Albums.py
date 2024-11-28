@@ -219,7 +219,7 @@ def fillAlbumReport(count):
                 yeargenrepara = Paragraph(albums[index].year + " " + 
                     "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " " + 
                     albums[index].genre +
-                     "<img src=" + "Todo/album.png" + " width='20' height='20' valign='-2'/>",
+                     "<img src=" + "Type/album.png" + " width='20' height='20' valign='-2'/>",
                     yeargenreStyle)
                 index += 1
                 sp = Spacer(0.1 * inch, 0.1 * inch)
