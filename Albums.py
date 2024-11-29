@@ -99,13 +99,14 @@ class AlbumReport:
         ]
 
 class Album:
-    def __init__(self, title, artist, cover, year, genre, rank):
+    def __init__(self, title, artist, cover, year, genre, rank, type):
         self.title = title
         self.artist = artist
         self.cover = cover
         self.year = year
         self.genre = genre
         self.rank = rank
+        self.type = type
 
 def process_2bytesymbol(line, pos, wsymbol):
     processed = line[:pos] + wsymbol + line[pos+2:]
@@ -355,10 +356,10 @@ if len(params) == 0:
 for i in range(len(albumdata)):
     title = processdiacritic(albumdata[i][0])
     artist = processdiacritic(albumdata[i][1])
-    albums.append(Album(title, artist, albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5]))
+    albums.append(Album(title, artist, albumdata[i][2], albumdata[i][3], albumdata[i][4], albumdata[i][5], albumdata[i][6]))
 print("Length albums", len(albums))
 for i in range(len(albums)):
-    print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover, albums[i].year, albums[i].genre, albums[i].rank)
+    print(i, "Album", albums[i].title, albums[i].artist, albums[i].cover, albums[i].year, albums[i].genre, albums[i].rank, albums[i].type)
 pdfmetrics.registerFont(TTFont('Ubuntu', 'Ubuntu-Regular.ttf'))
 pdfmetrics.registerFont(TTFont('UbuntuBold', 'Ubuntu-Bold.ttf'))
 pdfmetrics.registerFont(TTFont('UbuntuItalic', 'Ubuntu-Italic.ttf'))
