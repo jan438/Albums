@@ -223,6 +223,12 @@ def fillAlbumReport(count):
                     typeimg = "Type/album.png"
                 if type == "s":
                     typeimg = "Type/soundtrack.png"
+                if type == "t":
+                    typeimg = "Type/tape.png"
+                if type == "l":
+                    typeimg = "Type/live.png"
+                if type == "c":
+                    typeimg = "Type/compilation.png"
                 yeargenrepara = Paragraph(albums[index].year + " " + 
                     "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " " + 
                     albums[index].genre +
