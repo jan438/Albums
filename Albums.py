@@ -219,10 +219,14 @@ def fillAlbumReport(count):
                     rankimg = "Ranks/" + rank + ".png"
                 type = albums[index].type
                 print("Type", type)
+                if type == "a":
+                    typeimg = "Type/album.png"
+                if type == "s":
+                    typeimg = "Type/soundtrack.png"
                 yeargenrepara = Paragraph(albums[index].year + " " + 
                     "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " " + 
                     albums[index].genre +
-                     "<img src=" + "Type/album.png" + " width='20' height='20' valign='-2'/>",
+                     "<img src=" + typeimg + " width='20' height='20' valign='-2'/>",
                     yeargenreStyle)
                 index += 1
                 sp = Spacer(0.1 * inch, 0.1 * inch)
