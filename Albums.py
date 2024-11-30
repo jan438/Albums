@@ -217,6 +217,8 @@ def fillAlbumReport(count):
                 found = lookupRank(rank + ".png")
                 if found:
                     rankimg = "Ranks/" + rank + ".png"
+                type = albums[index].type
+                print("Type", type)
                 yeargenrepara = Paragraph(albums[index].year + " " + 
                     "<img src=" + rankimg + " width='20' height='20' valign='-2'/>" + " " + 
                     albums[index].genre +
