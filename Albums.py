@@ -48,7 +48,7 @@ titleStyle = ParagraphStyle('tit',
     alignment=TA_CENTER, 
     leading = 14,
     backColor = black,
-    spaceAfter = 3)
+    spaceAfter = 0)
 artisttitleStyle = ParagraphStyle('artisttitle', 
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 10,
