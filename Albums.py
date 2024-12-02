@@ -47,6 +47,7 @@ titleStyle = ParagraphStyle('tit',
     textColor = white, 
     alignment=TA_CENTER, 
     leading = 15,
+    borderPadding = (7, 2, 20),
     backColor = black,
     spaceAfter = 0)
 artisttitleStyle = ParagraphStyle('artisttitle', 
