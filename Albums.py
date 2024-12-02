@@ -44,9 +44,10 @@ styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit',
     parent=styles['Normal'],
     fontName = albumfont, fontSize = 13, 
-    textColor = black, 
+    textColor = white, 
     alignment=TA_CENTER, 
-    leading = 14, 
+    leading = 14,
+    backColor = black,
     spaceAfter = 3)
 artisttitleStyle = ParagraphStyle('artisttitle', 
     parent=styles['Normal'],
