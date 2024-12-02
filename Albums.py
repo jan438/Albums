@@ -43,10 +43,10 @@ woaigu = u"\xF3"
 styles = getSampleStyleSheet()
 titleStyle = ParagraphStyle('tit',
     parent=styles['Normal'],
-    fontName = albumfont, fontSize = 13, 
+    fontName = albumfont, fontSize = 14, 
     textColor = white, 
     alignment=TA_CENTER, 
-    leading = 14,
+    leading = 15,
     backColor = black,
     spaceAfter = 0)
 artisttitleStyle = ParagraphStyle('artisttitle', 
