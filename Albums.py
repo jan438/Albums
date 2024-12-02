@@ -245,7 +245,7 @@ def fillAlbumReport(count):
         tbl_data = albumreps[indrep].tabledata()
         tbl = Table(tbl_data)
         tbl.setStyle(pageStyle)
-        storypdf.append(Paragraph("RS 500 2023", titleStyle))
+        storypdf.append(Paragraph("Rolling Stone 500 Albums of All Time 2023 edition", titleStyle))
         storypdf.append(tbl)
         doc.build(storypdf)
         albumreps[indrep].clear()
