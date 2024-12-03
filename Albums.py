@@ -67,6 +67,15 @@ yeargenreStyle = ParagraphStyle('yeargenre',
     borderWidth = 0, borderColor = black,
     spaceBefore = 0, spaceAfter = 0,
     borderPadding = 0)
+footerStyle = ParagraphStyle('foo', 
+    parent=styles['Normal'],
+    fontName = albumfont, fontSize = 10,
+    leading = 11,
+    textColor = white,
+    alignment=TA_CENTER, 
+    backColor = black,
+    spaceBefore = 0, spaceAfter = 0,
+    borderPadding = 0)
 
 albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('LEFTPADDING',(0,0),(-1,-1), 0),
@@ -248,6 +257,7 @@ def fillAlbumReport(count):
         tbl.setStyle(pageStyle)
         storypdf.append(Paragraph("Rolling Stone 500 Albums of All Time 2023 edition", titleStyle))
         storypdf.append(tbl)
+        storypdf.append(Paragraph("Page " + str(indrep + 1), footerStyle))
         doc.build(storypdf)
         albumreps[indrep].clear()
         storypdf=[]
