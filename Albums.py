@@ -18,7 +18,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, Image, Space
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
 
-albumfont = "Ubuntu"
+albumfont = "LiberationSerif"
 rowsalbumreport = 5
 columsalbumreport = 5
 imgheight = 1.5 * inch
