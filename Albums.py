@@ -10,7 +10,7 @@ from pypdf import PdfReader, PdfWriter
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import LETTER, A4, landscape, portrait
 from reportlab.lib.units import inch
-from reportlab.lib.colors import blue, green, black, red, pink, gray, brown, purple, orange, yellow, white
+from reportlab.lib.colors import blue, green, black, red, pink, gray, brown, purple, orange, yellow, white, lightgrey
 from reportlab.pdfbase import pdfmetrics  
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import registerFontFamily
@@ -213,7 +213,7 @@ def fillAlbumReport(count):
                 #key = input("Wait")
                 img = lookupCover(albums[index].cover)
                 artisttitlepara = Paragraph(
-                "<font textColor = white size = 9>"  + albums[index].artist + "</font>,‘" + 
+                "<font textColor = lightgrey size = 9>"  + albums[index].artist + "</font>,‘" + 
                 "<font textColor = white>" + albums[index].title + "</font>" + "’", artisttitleStyle)
                 rank = albums[index].rank
                 found = lookupRank(rank + ".png")
