@@ -75,7 +75,7 @@ footerStyle = ParagraphStyle('foo',
     alignment=TA_CENTER, 
     backColor = black,
     spaceBefore = 0, spaceAfter = 0,
-    borderPadding = (0, 0, 2))
+    borderPadding = (0, 0, 4))
 
 albumStyle = [('VALIGN',(0,0),(-1,-1),'TOP'),
     ('LEFTPADDING',(0,0),(-1,-1), 0),
