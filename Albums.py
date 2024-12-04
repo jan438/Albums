@@ -257,7 +257,7 @@ def fillAlbumReport(count):
         tbl.setStyle(pageStyle)
         storypdf.append(Paragraph("Rolling Stone 500 Albums of All Time 2023 edition", titleStyle))
         storypdf.append(tbl)
-        storypdf.append(Paragraph("Page " + str(indrep + 1), footerStyle))
+        storypdf.append(Paragraph("<font textColor = lightgrey>" + "Page " + "</font>" + str(indrep + 1), footerStyle))
         doc.build(storypdf)
         albumreps[indrep].clear()
         storypdf=[]
