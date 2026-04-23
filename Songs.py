@@ -10,7 +10,7 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.units import inch, mm
 
 songsdata = []
-maxsongs = 20
+maxsongs = 30
 maxsongspage = 10
 
 if sys.platform[0] == 'l':
