@@ -10,8 +10,8 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.units import inch, mm
 
 songsdata = []
-maxsongs = 10
-maxsongspage = 5
+maxsongs = 20
+maxsongspage = 10
 
 if sys.platform[0] == 'l':
     path = '/home/jan/git/Albums'
@@ -27,7 +27,7 @@ with open(file_to_open, 'r') as file:
         count += 1
 print(count)
 col = 0
-row = 10
+row = 20
 colwidth = 200
 rowheight = 20
 leftmargin = 10
@@ -44,6 +44,6 @@ for i in range(maxsongs):
     if count == maxsongspage:
         my_canvas.showPage()
         count = 0
-        row = 10
+        row = 20
 my_canvas.save()
 key = input("Wait")
