@@ -10,6 +10,7 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.units import inch, mm
 
 songsdata = []
+maxsongs = 10
 
 if sys.platform[0] == 'l':
     path = '/home/jan/git/Albums'
@@ -24,10 +25,16 @@ with open(file_to_open, 'r') as file:
         songsdata.append(row)
         count += 1
 print(count)
+col = 0
+row = 10
+colwidth = 200
+rowheight = 20
+leftmargin = 10
+bottommargin = 20
 my_canvas = canvas.Canvas("PDF/RSSongs2024.pdf")
-my_canvas.setFillColor(HexColor('#FECDE5'))
-p = my_canvas.beginPath()
-p.arc(2.0, 12.0, 22.0, 32.0, startAng = 90, extent = 90)
-my_canvas.drawPath(p, fill=1, stroke=1)
+my_canvas.setFillColor(HexColor('#000000'))
+for i in range(maxsongs):
+    my_canvas.drawString(leftmargin + col * colwidth + 20, bottommargin + row * rowheight, songsdata[i][0])
+    row -= 1
 my_canvas.save()
 key = input("Wait")
