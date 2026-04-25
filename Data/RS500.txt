@@ -2284,3 +2284,536 @@ QMKHM1900001
 QMKHM1900218
 USEE10001992
 4.3
+
+#	Name	Artist	ISRCs	Rating	Length
+400	Kicks	Paul Revere and the Raiders	
+USSM16601060
+2:26
+401	Tonight’s the Night (mono)	The Shirelles	
+QM6N21404783
+USACU0500003
+4
+1:59
+402	Thank You (Falettinme Be Mice Elf Agin) (single stereo mix)	Sly & the Family Stone	
+USSM16900805
+USSM19901657
+4.65
+4:48
+403	C'Mon Everybody	Eddie Cochran	
+DEB551261416
+FRM031229820
+(show 5 more)
+USEM39300158
+4
+1:56
+404	Visions of Johanna (original mono studio mix)	Bob Dylan	
+USSM11003562
+7:33
+405	We’ve Only Just Begun	Carpenters	
+USAM10200559
+USAM17000368
+USAM17100073
+USAM18500474
+3.4
+3:05
+406	I Believe I Can Fly	R. Kelly	
+GBAHK9600239
+USAT20101644
+USJI11000176
+USJI19610437
+3.5
+5:21
+407	In Bloom	Nirvana	
+USGF19942502
+4:17
+408	Sweet Emotion (album version)	Aerosmith	
+USSM10207884
+USSM17500151
+USSM19906482
+4.5
+4:35
+409	Crossroads (live, 1968-03-10: Winterland, San Francisco, CA, USA)	Cream	
+GBA076800010
+GBUM71502783
+NLF056890056
+NLFO56890056
+4.5
+4:16
+410	Monkey Gone to Heaven	Pixies	
+GBAFL9700103
+3.9
+2:56
+411	I Feel Love (album version)	Donna Summer	
+USPR39402393
+3.8
+5:53
+412	Ode to Billie Joe	Bobbie Gentry	
+USCN18900028
+5
+4:15
+413	The Girl Can’t Help It (master)	Little Richard	
+GBEEJ0702204
+USC4R0817285
+USSPI5700009
+4
+2:32
+414	Young Blood	The Coasters	
+USAT20102488
+USAT20505427
+2
+2:21
+415	I Can’t Help Myself (Sugar Pie, Honey Bunch)	Four Tops	
+USLIC0601850
+USMO16582593
+USMO16582894
+USMO16582984
+3.6
+2:44
+416	The Boys of Summer	Don Henley	
+USGF18502601
+USGF18502607
+3.8
+4:48
+417	Fuck tha Police	N.W.A	
+USPO10000873
+4
+5:46
+418	Suite: Judy Blue Eyes	Crosby, Stills & Nash	
+USAT20003573
+USAT20506555
+USAT20901715
+4.6
+7:24
+419	Nuthin’ but a “G” Thang	Dr. Dre	
+USDR20000068
+USKO10403560
+3.7
+3:58
+420	It's Your Thing	The Isley Brothers	
+USSM16801036
+USSM18400324
+USSM19803494
+4.35
+2:48
+421	Piano Man	Billy Joel	
+USSM17200228
+USSM17300504
+4.35
+5:39
+422	Lola (“Coca-Cola” version)	The Kinks	
+GB5KW1704295
+GBAJE7000001
+4.1
+4:05
+423	Blue Suede Shoes	Elvis Presley	
+USRC10301059
+USRC15601858
+USRC15602848
+USRC19708170
+4.45
+2:01
+424	Tumbling Dice (original studio mix)	The Rolling Stones	
+GBCJN0500014
+GBCJN7200005
+3.75
+3:47
+425	William, It Was Really Nothing	The Smiths	
+GB0028454800
+GBAHT8403280
+(show 2 more)
+GBCRL1300257
+4.5
+2:11
+426	Smoke on the Water	Deep Purple	
+GBDXG0600239
+USWB10202817
+USWB19903670
+5:28
+427	New Year’s Day	U2	
+GBAAN8300023
+GBUM70713133
+GBUM70809759
+4.4
+5:36
+428	Devil With a Blue Dress On / Good Golly Miss Molly	Mitch Ryder & The Detroit Wheels	
+3:06
+429	Everybody Needs Somebody to Love	Solomon Burke	
+USAT20106157
+USAT21205845
+5
+2:45
+430	(White Man) In Hammersmith Palais	The Clash	
+GBARL1201013
+GBARL1202530
+GBBBN7802002
+GBBBN9902478
+3.4
+4:01
+431	Ain’t That a Shame (live, 1985-08-22: Universal Amphitheatre, Los Angeles, CA, USA)	Fats Domino	
+USEM38700044
+USKYW0905572
+2:32
+432	Midnight Train to Georgia	Gladys Knight & the Pips	
+USBR17300001
+4.5
+4:40
+433	Ramble On (original studio mix)	Led Zeppelin	
+USAT20703868
+USAT29900477
+USRH11505137
+USRH11505624
+4.15
+4:24
+434	Mustang Sally	Wilson Pickett	
+USAT20704818
+USAT20804266
+USAT21205826
+USAT29902210
+4
+3:07
+435	Beast of Burden	The Rolling Stones	
+GBCJN7800009
+4.75
+4:25
+436	Alone Again Or (original stereo studio mix)	Love	
+USEE10001024
+USEE10609244
+(show 2 more)
+USEE11500325
+4.2
+3:16
+437	Love Me Tender	Elvis Presley	
+DEU241001073
+ITCF41400097
+(show 4 more)
+USRC19708199
+4
+2:44
+438	I Wanna Be Your Dog	The Stooges	
+USEE10000948
+USEE10501247
+(show 4 more)
+USRH11903293
+3.6
+3:10
+439	Pink Houses	John Cougar Mellencamp	
+USJM18300001
+4.75
+4:45
+440	Push It	Salt‐N‐Pepa	
+USIR20180482
+USIR20400285
+3.75
+3:28
+441	Come Go With Me	The Del‐Vikings	
+USAT20104896
+USDEI7904741
+USMC15701811
+4.5
+2:40
+442	Keep a Knockin’	Little Richard	
+USSPI5700012
+2:22
+443	I Shot the Sheriff	The Wailers	
+GBAAN7390003
+3.9
+4:41
+444	I Got You Babe	Sonny & Cher	
+USAT20618221
+USAT20901462
+(show 2 more)
+USWI19600259
+4
+3:11
+445	Come as You Are (original studio mix)	Nirvana	
+USGF19942503
+4.1
+3:39
+446	Pressure Drop	Toots & The Maytals	
+GBAJE6900208
+GBAJE6900991
+GBAWA0378497
+5
+2:59
+447	Leader of the Pack (single version)	The Shangri‐Las	
+USPR36402725
+4.5
+2:51
+448	Heroin (original stereo studio mix)	The Velvet Underground	
+USPR36602765
+USPR36702765
+4.4
+7:13
+449	Penny Lane (original mono studio mix)	The Beatles	
+GBAYE0601641
+GBAYE0900723
+GBAYE6700028
+4.05
+3:04
+450	By the Time I Get to Phoenix	Glen Campbell	
+USCN10100677
+USCN16700004
+3.5
+2:44
+451	The Twist	Chubby Checker	
+BRFDZ0700063
+USA176040010
+4.2
+2:38
+452	Cupid	Sam Cooke	
+USRC16107202
+4.5
+2:36
+453	Paradise City	Guns N’ Roses	
+USEE10900662
+USGF18714806
+4.3
+6:46
+454	My Sweet Lord (original studio mix)	George Harrison	
+GB77R1400026
+GBAYE0001272
+GBAYE0901205
+4.4
+4:39
+455	All Apologies (“In Utero” original version)	Nirvana	
+USGF19960712
+4.65
+3:51
+456	Stagger Lee	Lloyd Price	
+USDEI7604347
+USMC15854301
+2:51
+457	Sheena Is a Punk Rocker	Ramones	
+USRH11703067
+USWB10106563
+(show 2 more)
+USWB19900893
+4.55
+2:48
+458	Soul Man	Sam & Dave	
+GBXHC1200949
+USAT20001065
+USAT20804274
+4.5
+2:38
+459	Rollin’ Stone	Muddy Waters	
+USESK1302349
+3:05
+460	One Fine Day	The Chiffons	
+USDEI7703436
+2:16
+461	Kiss (single version)	Prince and The Revolution	
+USWB10808445
+USWB19903319
+3.4
+3:46
+462	Respect Yourself	The Staple Singers	
+USC4R1123056
+USC4R1901687
+USFI87200031
+4:54
+463	Rain (original mono studio mix)	The Beatles	
+GBAYE0900778
+GBUM72202139
+3.65
+3:00
+464	Standing in the Shadows of Love	Four Tops	
+USMO10119991
+2:37
+465	Surrender	Cheap Trick	
+USBG30400011
+USSM17800079
+USSM17800745
+USSM19802566
+3.85
+4:14
+466	Runaway	Del Shannon	
+GB01A0800374
+ITCF41401860
+(show 2 more)
+USCA27300077
+4.4
+2:20
+467	Welcome to the Jungle	Guns N’ Roses	
+USGF18714801
+4.4
+4:33
+468	Search and Destroy	Iggy and The Stooges	
+USSM11000400
+4.15
+3:29
+469	It’s Too Late (stereo)	Carole King	
+USSM17100509
+USSM17100522
+4
+3:53
+470	Free Man in Paris	Joni Mitchell	
+USEA20100002
+4.25
+3:03
+471	On the Road Again (live, 1979: Austin, TX, USA)	Willie Nelson	
+USSM10105948
+USSM10107320
+(show 2 more)
+USSM18000629
+4.15
+2:33
+472	Where Did Our Love Go (original mono mix)	The Supremes	
+USMO10400291
+USMO16482614
+USMO19290049
+5
+2:33
+473	Do Right Woman – Do Right Man (original stereo mix)	Aretha Franklin	
+AUXN22142346
+TCJPN2170858
+(show 8 more)
+USRH12000995
+5
+3:16
+474	One Nation Under a Groove	Funkadelic	
+GBA7H1462906
+GBAWA0518717
+USFB20601525
+3.6
+7:28
+475	Sabotage (explicit)	Beastie Boys	
+USCA20501217
+USCA20901511
+USCA29400020
+4.7
+2:58
+476	I Want to Know What Love Is	Foreigner	
+USAT20200399
+USAT20610569
+(show 4 more)
+USAT29900662
+3.95
+5:01
+477	Super Freak	Rick James	
+USLS50908805
+USMO18100048
+4.15
+3:24
+478	White Rabbit	Jefferson Airplane	
+USRC10100782
+USRC10301017
+USRC16601832
+USRC19305647
+4.35
+2:33
+479	Lady Marmalade	LaBelle	
+USMC19650998
+USSM10022100
+(show 4 more)
+USSM19600441
+3.3
+3:56
+480	Into the Mystic (remix, no tambourine)	Van Morrison	
+USWB11302507
+USWB19900492
+3.2
+3:29
+481	Young Americans (album version)	David Bowie	
+USJT10500042
+USJT11600056
+USJT19900095
+4.05
+5:12
+482	I’m Eighteen	Alice Cooper	
+USWB10402232
+USWB19900777
+4.2
+2:59
+483	Just Like Heaven (album original mix)	The Cure	
+GBALB8700003
+USEE10608907
+USEE18700009
+4.35
+3:32
+484	I Love Rock ’n’ Roll	Joan Jett & the Blackhearts	
+USBH18100118
+USWWW0139302
+4.55
+2:55
+485	Graceland	Paul Simon	
+USSM11002255
+USWB10203189
+USWB10401042
+USWB18600013
+4.3
+4:51
+486	How Soon Is Now? (12″ version)	The Smiths	
+GBAHT8403281
+GBCRL0800322
+GBCRL1100068
+USWB18400055
+4.75
+6:46
+487	Under the Boardwalk	The Drifters	
+USAT20001017
+USAT20302318
+USAT21003310
+4.35
+2:42
+488	Rhiannon	Fleetwood Mac	
+USRH11700074
+USWB10400036
+(show 2 more)
+USWB21700071
+4.5
+4:11
+489	I Will Survive (single version)	Gloria Gaynor	
+UKDNQ1507001
+UKDNQ1509477
+(show 3 more)
+USUM72110529
+3.95
+3:17
+490	Brown Sugar (original single stereo version)	The Rolling Stones	
+GBCJN7100001
+GBUM70909464
+USA176110010
+USA177110010
+4
+3:50
+491	You Don’t Have to Say You Love Me	Dusty Springfield	
+GBF080080386
+GBF080300974
+GBF086600753
+3.7
+2:49
+492	Running on Empty	Jackson Browne	
+USEE10300842
+5:03
+493	Then He Kissed Me	The Crystals	
+USQX91100118
+4.65
+2:36
+494	Desperado	Eagles	
+USAS19900038
+USEE11300158
+USEE11300307
+4.3
+3:34
+495	Shop Around (single version / mono)	The Miracles	
+USMO16000264
+2.75
+2:49
+496	Miss You	The Rolling Stones	
+GBCJN7800001
+4
+4:49
+497	Buddy Holly	Weezer	
+USGF19562907
+4.25
+2:40
+498	Rainy Night in Georgia	Brook Benton	
+USAT20002494
+USAT20903464
+4
+3:52
+499	The Boys Are Back in Town	Thin Lizzy	
+GBF087600063
+USLIC0601831
+4.2
