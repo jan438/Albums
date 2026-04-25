@@ -1183,3 +1183,539 @@ USGF19463401
 4.35
 3:56
 
+#	Name	Artist	ISRCs	Rating	Length
+201	Bizarre Love Triangle	New Order	
+GBAAP0200697
+GBAAP1500073
+(show 2 more)
+GBCRL2400048
+4.5
+4:22
+202	Come Together (original studio mix)	The Beatles	
+GBAYE0000944
+GBAYE0601690
+4.15
+4:20
+203	Positively 4th Street	Bob Dylan	
+USSM16500150
+USSM16501140
+4.5
+3:55
+204	Try a Little Tenderness	Otis Redding	
+USAT20705843
+USAT29902035
+4.25
+3:49
+205	Lean on Me (album version)	Bill Withers	
+USSM17200084
+USSM17200461
+USSM19909971
+4.3
+4:19
+206	Reach Out I’ll Be There (stereo)	Four Tops	
+USMO10119990
+USMO16700445
+4
+2:59
+207	Bye Bye Love (mono)	The Everly Brothers	
+GBAYE5500009
+NLG620400863
+(show 3 more)
+USZZM0710106
+4.35
+2:22
+208	Gloria	Them	
+GBF076420160
+USQX91501412
+3.65
+2:38
+209	In My Room	The Beach Boys	
+USCA20001596
+USCA21201985
+USCA28700058
+USCA29900639
+3
+2:14
+210	96 Tears (original stereo LP version)	? and the Mysterians	
+USA176640140
+USA176640160
+5
+2:57
+211	Caroline, No (mono)	The Beach Boys	
+USCA21201813
+USCA29600687
+3
+2:54
+212	1999 (single edit)	Prince	
+USRH11902862
+USWB18200029
+USWB19901185
+4
+3:37
+213	Your Cheatin' Heart	Hank Williams	
+DEU240526754
+GBEEJ0401773
+USF067125080
+USPR35202092
+4
+2:43
+214	Rockin’ in the Free World (live)	Neil Young	
+USRE19900701
+USRE19900712
+3:40
+215	Sh‐Boom	The Chords	
+GB2R51201626
+GBAWA0649449
+USAT29901556
+3
+2:26
+216	Do You Believe in Magic?	The Lovin’ Spoonful	
+USBR16600004
+4.5
+2:06
+217	Jolene	Dolly Parton	
+USRHD0900815
+USRN19400058
+USRN19600096
+4.25
+2:41
+218	Boom Boom (stereo)	John Lee Hooker	
+DEU240305564
+USAT20103572
+(show 3 more)
+USVJ10400579
+3.3
+2:32
+219	Spoonful	Howlin’ Wolf	
+USMC16051851
+5
+2:45
+220	Walk Away Renée	The Left Banke	
+USIR20180419
+4
+2:44
+221	Walk on the Wild Side	Lou Reed	
+USAR19901104
+USRC10200418
+(show 5 more)
+USRC19606712
+4.25
+4:13
+222	Oh, Pretty Woman	Roy Orbison	
+GRS010600200
+USSM16400918
+(show 6 more)
+USSM19805299
+4.2
+2:59
+223	Dance to the Music	Sly & the Family Stone	
+USSM10209958
+USSM16701182
+(show 2 more)
+USSM19901652
+4.15
+2:59
+224	Good Times (7″ edit)	Chic	
+USAT20107573
+USAT20504465
+(show 4 more)
+USRH11803159
+5
+3:42
+225	I’m Your Hoochie Coochie Man	Muddy Waters	
+UCMC15446127
+USMC15446127
+3.85
+2:51
+226	Moondance (original stereo mix)	Van Morrison	
+GBAKZ7000001
+USWB11302504
+USWB19900489
+3.8
+4:34
+227	Fire and Rain (original stereo studio mix)	James Taylor	
+USRH11900597
+USRH11900885
+USWB10300111
+USWB19900191
+4.3
+3:23
+228	Should I Stay or Should I Go	The Clash	
+GBARL1200670
+GBBBN8200005
+GBBBN9902467
+4.55
+3:08
+229	Mannish Boy	Muddy Waters	
+USMC15546488
+USMC16850736
+4.25
+2:57
+230	Just Like a Woman	Bob Dylan	
+USSM16600204
+USSM16601252
+4
+4:53
+231	Sexual Healing	Marvin Gaye	
+USSM10414210
+USSM10605879
+(show 3 more)
+USSM19805454
+3.65
+4:00
+233	We’ve Gotta Get Out of This Place	The Animals	
+GBAYE6500233
+GBAYE6500469
+3.8
+3:14
+234	I’ll Feel a Whole Lot Better	The Byrds	
+USSM16500020
+4
+2:34
+235	I Got a Woman	Ray Charles	
+2:53
+236	Everyday	Buddy Holly	
+GBAWA0673580
+GBEEJ0900007
+USMC15703105
+4.85
+2:09
+237	Planet Rock (Planet Rock: The Album version)	Afrika Bambaataa & Soulsonic Force	
+USTB10500020
+5
+7:31
+238	I Fall to Pieces	Patsy Cline & Jim Reeves	
+USMC18212873
+2:52
+239	The Wanderer	Dion	
+USLA18800001
+USRHD0708714
+2:42
+240	Son of a Preacher Man	Dusty Springfield	
+GBF086800754
+GBF089400040
+(show 4 more)
+USAT20702465
+4.45
+2:27
+241	Stand!	Sly & the Family Stone	
+USSM10017455
+USSM19702145
+USSM19909968
+3.5
+3:08
+242	Rocket Man (I Think It’s Going to Be a Long, Long Time)	Elton John	
+GBAMB7200006
+GBAMB9200006
+GBUM71700184
+4.05
+4:42
+243	Love Shack	The B‐52s	
+USRE10301843
+USRE11000321
+USRE18900030
+USRH11901962
+4.2
+5:22
+244	Gimme Some Lovin’	The Spencer Davis Group	
+GBAAN6600008
+GBFUA0500007
+GBUM71002674
+USEM38800203
+4.15
+2:56
+245	The Night They Drove Old Dixie Down (original studio mix)	The Band	
+USCA20000970
+USUM71908615
+3:30
+246	(Your Love Keeps Lifting Me) Higher and Higher (original single version)	Jackie Wilson	
+GBAYE6600127
+GBBPJ9800357
+USBWC0010022
+USRE10500005
+4.8
+2:58
+247	Hot Fun in the Summertime	Sly & the Family Stone	
+USSM16900806
+USSM19700961
+USSM19901654
+3.65
+2:38
+248	Rapper’s Delight	The Sugarhill Gang	
+4.5
+4:51
+249	Chain of Fools (stereo)	Aretha Franklin	
+AUXN22142335
+DELJ81808925
+(show 8 more)
+USV291394160
+4.25
+2:47
+250	Paranoid (original stereo studio mix)	Black Sabbath	
+AUXN22142433
+GB5KW1601263
+(show 5 more)
+USWB19900213
+4.55
+2:48
+251	Mack the Knife	Bobby Darin	
+USEW10000025
+USWE10000025
+4
+3:08
+252	Money Honey	Clyde McPhatter and The Drifters	
+GBAJD0675046
+USAT20000691
+USAT20110746
+USAT21206724
+4
+2:58
+253	All the Young Dudes	Mott the Hoople	
+USSM10021547
+USSM10028174
+(show 3 more)
+USSMI7200181
+4.2
+3:31
+254	Highway to Hell	AC/DC	
+AUAP07900028
+4.4
+3:28
+255	Heart of Glass	Blondie	
+USCH37800025
+USCH37800029
+USCH37900017
+4.3
+3:54
+256	Paranoid Android	Radiohead	
+GBAYE9701376
+GBBKS1700108
+4.35
+6:24
+257	Wild Thing	The Troggs	
+GBF086600001
+4.4
+2:37
+258	I Can See for Miles (mono)	The Who	
+GBUM70818900
+4.85
+4:07
+259	Hallelujah	Jeff Buckley	
+USSM19400915
+3.85
+6:53
+260	Oh, What a Night	The Dells	
+GBAWA0913216
+2:53
+261	Higher Ground	Stevie Wonder	
+USMO17382652
+4.5
+3:43
+262	Ooo Baby Baby (mono)	The Miracles	
+USMO16572024
+USUMG9900456
+5
+2:46
+263	He’s a Rebel (recorded by The Blossoms, but credited to The Crystals)	The Crystals	
+USQX91100111
+USSM10906442
+2:17
+264	Sail Away	Randy Newman	
+USRE10100289
+USRE10200108
+2:52
+265	Tighten Up	Archie Bell & the Drells	
+USDEI7904145
+2:46
+266	Walking in the Rain	The Ronettes	
+AUXN22125661
+USQX91000413
+USQX91100093
+4.5
+3:17
+267	Personality Crisis	New York Dolls	
+GBUM70809538
+USPR37300026
+3.5
+3:42
+268	Sunday Bloody Sunday	U2	
+GBAAN8300034
+GBUM70713138
+4.6
+4:40
+269	Roadrunner	The Modern Lovers	
+GBAJE7100695
+GBAJE7200693
+GBAJE7600006
+4
+4:06
+270	He Stopped Loving Her Today	George Jones	
+USSM10008557
+USSM18000254
+(show 2 more)
+USSM19903141
+5
+3:17
+271	Sloop John B.	The Beach Boys	
+USCA21201807
+USCA29000577
+USCA29502217
+USCA29900674
+2:58
+272	Sweet Little Sixteen (original release, take 14)	Chuck Berry	
+USMC15720034
+USUM70765325
+2.5
+3:12
+273	Something (original studio mix)	The Beatles	
+GBAYE0000943
+GBAYE0601691
+4.1
+3:03
+274	Somebody to Love (stereo)	Jefferson Airplane	
+USLS50811105
+USRC10100774
+(show 4 more)
+USRC19305648
+4.55
+2:59
+275	Born in the U.S.A. (studio, version 12a take 9 edit 1)	Bruce Springsteen	
+USSM18400406
+USSM18400783
+3.85
+4:39
+276	I’ll Take You There (7″ version)	The Staple Singers	
+USFI80700331
+USFI87200102
+5
+3:16
+277	Ziggy Stardust	David Bowie	
+USJT10200027
+USJT10300109
+(show 3 more)
+USJT19900060
+4.65
+3:13
+278	Pictures of You (album original mix)	The Cure	
+GBAKW8901034
+GBUM71000205
+USEE10901453
+4.1
+7:29
+279	Chapel of Love	The Dixie Cups	
+GBA7H1021876
+GBAWA0423249
+(show 7 more)
+USWB10102869
+4
+2:48
+280	Ain’t No Sunshine	Bill Withers	
+USSM10000372
+USSM17100268
+(show 2 more)
+USSM19925139
+4.5
+2:05
+281	You Are the Sunshine of My Life (single version with horns)	Stevie Wonder	
+USMO10000895
+USMO17282852
+USMO17300485
+4.3
+2:56
+282	Help Me	Joni Mitchell	
+USEE10001275
+4.2
+3:22
+283	Call Me (re‐recorded)	Blondie	
+USDPK1302608
+3:31
+284	(What’s So Funny ’Bout) Peace, Love and Understanding	Elvis Costello & The Attractions	
+GBASQ7900053
+USUG11100822
+USUG12003663
+4.2
+3:32
+285	Smokestack Lightnin’	Howlin’ Wolf	
+USMC10400622
+USMC15646854
+5
+3:07
+286	Summer Babe (Winter version)	Pavement	
+US58L0501419
+USMTD1090012
+USMTD9203801
+4.5
+3:16
+287	Walk This Way	Run‐D.M.C.	
+USAR19600256
+USAR19900334
+USUG12301902
+4.05
+5:11
+288	Money (That’s What I Want) (single version / mono)	Barrett Strong	
+USMO15900265
+3.85
+2:37
+289	Can’t Buy Me Love	The Beatles	
+GBAYE0601444
+2:11
+290	Stan (explicit)	Eminem featuring Dido	
+USIR10000594
+USIR10001280
+4.4
+6:44
+291	She’s Not There	The Zombies	
+GBCBS6432190
+4.15
+2:25
+292	Train in Vain (original studio mix)	The Clash	
+GBARL1200698
+GBBBN7902003
+4.15
+3:11
+293	Tired of Being Alone	Al Green	
+GBAFR7110001
+4.45
+2:50
+294	Black Dog	Led Zeppelin	
+USAT29900608
+5:05
+295	Street Fighting Man (original studio mix)	The Rolling Stones	
+USA171810015
+USA176810060
+3.4
+3:16
+296	Get Up, Stand Up	The Wailers	
+GBAAN7390001
+4.15
+3:17
+297	Heart of Gold (original studio mix)	Neil Young	
+USRE10900201
+USRE10900652
+(show 3 more)
+USRE19900182
+4.3
+3:07
+298	One Way or Another	Blondie	
+USCH30100029
+USCH37800010
+USCH37800020
+USCH38500014
+4.15
+3:32
+299	Sign “☮︎” the Times (single edit)	Prince	
+USWB12000469
+USWB19901187
+4
+3:44
+300	Like a Prayer	Madonna	
+USWB10002775
+USWB10903606
+4.15
+5:42
+301	Da Ya Think I’m Sexy?	Rod Stewart	
+USWB10001995
+USWB10806969
+(show 2 more)
+USWB19900142
+4
