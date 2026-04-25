@@ -1719,3 +1719,568 @@ USWB10806969
 (show 2 more)
 USWB19900142
 4
+
+#	Name	Artist	ISRCs	Rating	Length
+302	Blue Eyes Crying in the Rain	Willie Nelson	
+USSM17500311
+USSM17500646
+USSM17600065
+USSM19904860
+4
+2:21
+303	Ruby Tuesday (original stereo studio mix)	The Rolling Stones	
+USA170710220
+USA176710030
+3.3
+3:17
+304	With a Little Help From My Friends (original mono studio mix)	The Beatles	
+GBAYE0601508
+GBAYE0900703
+GBAYE6700003
+GBAYE9901225
+3.95
+2:44
+305	Say It Loud – I’m Black and I’m Proud, Pt. 1	James Brown	
+USPG19190042
+USWWW0138943
+2:48
+306	That’s Entertainment	The Jam	
+GBAKW8001003
+GBF068025220
+3.45
+3:34
+307	Why Do Fools Fall in Love	Frankie Lymon & The Teenagers	
+FRX281906402
+GBAYE0400285
+(show 3 more)
+USRH15533352
+4.5
+2:19
+308	Lonely Teardrops	Jackie Wilson	
+GBRXC0903817
+USBWC0110032
+USUG10400090
+2:43
+309	What’s Love Got to Do With It	Tina Turner	
+GBAYE1401507
+USCA28400002
+(show 2 more)
+USRHD0532195
+4.05
+3:48
+310	Iron Man (original stereo studio mix)	Black Sabbath	
+AUXN22142436
+GB5KW1601265
+(show 3 more)
+USWB19900215
+4.65
+5:55
+311	Wake Up Little Susie	The Everly Brothers	
+GBAWA0672649
+GBEEJ1001124
+(show 5 more)
+USZZM0710108
+4.65
+2:01
+312	In Dreams	Roy Orbison	
+USSM16301089
+USSM19805294
+4
+2:50
+313	I Put a Spell on You	Screamin’ Jay Hawkins	
+USSM10005633
+USSM15600160
+USSM15600404
+3.3
+2:27
+314	Comfortably Numb (6:24 album version)	Pink Floyd	
+GBDJQ7900022
+GBDJQ9200044
+(show 2 more)
+USSM17900251
+4.2
+6:23
+315	Don’t Let Me Be Misunderstood	The Animals	
+GBAYE6500156
+USA171360028
+USA176460060
+4.3
+2:28
+316	Wish You Were Here (original studio mix)	Pink Floyd	
+GBDJQ7500004
+GBDJQ9200013
+(show 2 more)
+USSM17500255
+4.5
+5:40
+317	Many Rivers to Cross	Jimmy Cliff	
+GBAPA6900004
+USUMG9900502
+5
+3:02
+318	Alison	Elvis Costello	
+GBASQ7700005
+3.85
+3:24
+319	School’s Out	Alice Cooper	
+USLIC0601700
+USWB10201015
+(show 3 more)
+USWB19900782
+4.2
+3:29
+320	Heartbreaker	Led Zeppelin	
+USAT21207013
+USAT21300929
+USAT29900475
+4:14
+321	Cortez the Killer	Neil Young with Crazy Horse	
+USRE11700229
+USRE19900432
+4.25
+7:32
+322	Fight the Power (album version)	Public Enemy	
+USDJ20200160
+USDJ29000034
+3.7
+4:39
+323	Dancing Barefoot	Patti Smith Group	
+USAR19900952
+4
+4:16
+324	Baby Love	The Supremes	
+USMO10400273
+USMO16400287
+USMO16482608
+USMO16482615
+4.45
+2:37
+325	Good Lovin’ (single version)	The Young Rascals	
+USAT20106062
+USAT20902225
+4
+2:31
+326	Get Up (I Feel Like Being a) Sex Machine	James Brown	
+USF067025050
+USPG19190028
+(show 2 more)
+USPR37009024
+4
+5:17
+327	For Your Precious Love	Jerry Butler & The Impressions	
+USESK0605929
+USESK0607312
+USESK1311506
+4
+2:44
+328	The End	The Doors	
+USEE11200530
+USEE19900208
+USRH11605646
+4.25
+11:42
+329	That’s the Way of the World	Earth, Wind & Fire	
+USSM10214606
+USSM17400205
+(show 3 more)
+USSM19803682
+3.35
+5:46
+330	Fight the Power (soundtrack version) (explicit)	Public Enemy	
+USDJ20110629
+5:24
+331	I Can’t Make You Love Me	Bonnie Raitt	
+USCA29100113
+5
+5:32
+332	Subterranean Homesick Blues (officially released studio recording)	Bob Dylan	
+USSM16500147
+USSM16501028
+USSM16501139
+4.15
+2:20
+333	Spirit in the Sky	Norman Greenbaum	
+NLG620400918
+USAT21602767
+(show 2 more)
+USWD10524718
+4.05
+4:00
+334	Wild Horses (original single stereo version)	The Rolling Stones	
+GBCJN7100003
+GBUM70909466
+USA176110020
+USA177110020
+4
+5:43
+335	Sweet Jane	The Velvet Underground	
+USRH11504927
+5
+3:17
+335	Sweet Jane (full length version)	The Velvet Underground	
+USAT20103136
+USRH11503013
+5
+4:07
+336	Walk This Way	Aerosmith	
+USSM10024249
+USSM10207883
+USSM19906481
+4
+3:41
+337	Beat It	Michael Jackson	
+USSM18200003
+USSM18200197
+USSM19902990
+4.35
+4:18
+338	We Will Rock You	Queen	
+GBCEE0100127
+GBCEE0900129
+(show 8 more)
+USHR10320405
+3.9
+2:02
+339	Maybe I’m Amazed	Paul McCartney	
+GBCCS0100723
+GBCCS0700330
+(show 2 more)
+GBCCS1500231
+4.5
+3:52
+340	You Keep Me Hangin’ On (original mono mix)	The Supremes	
+USMO16600027
+USMO16682633
+5
+2:44
+341	Baba O’Riley (Dolby Atmos mix)	The Who	
+5:06
+341	Baba O’Riley (original album version)	The Who	
+GBA137100010
+GBAKW7100001
+(show 2 more)
+GBUM72203480
+4.55
+5:00
+342	The Harder They Come	Jimmy Cliff	
+GBAAN7200011
+USUMG9900501
+4.65
+3:41
+343	Runaround Sue	Dion	
+USLA19100004
+3
+2:42
+344	Jim Dandy	LaVern Baker	
+USAT20181076
+USAT21206790
+4.5
+2:13
+345	Piece of My Heart	Big Brother & the Holding Company	
+USSM10026488
+USSM16800513
+USSM16801084
+4:15
+346	La bamba	Ritchie Valens	
+USRH10402003
+4.75
+2:06
+347	California Love	2Pac feat. Dr. Dre	
+USKO10690024
+USNPD0801620
+USUG10702629
+4:45
+348	Candle in the Wind (original stereo mix)	Elton John	
+GBALX8700011
+GBAMB9500056
+GBF080300776
+GBUM71304954
+3.65
+3:49
+349	That Lady, Parts 1 & 2	The Isley Brothers	
+USSM17300554
+USSM19803500
+USSM19900205
+USSM19918311
+4
+5:36
+350	Spanish Harlem	Ben E. King	
+ITXH42147297
+USAT20000564
+USAT20202648
+4.4
+2:57
+351	The Loco‐Motion	Little Eva	
+GBAYE0400286
+GBAYE6200144
+ITCF41804669
+USHMF0700039
+2
+2:25
+352	The Great Pretender	The Platters	
+DEU241001125
+FRX281906400
+(show 3 more)
+USPR39402506
+5
+2:39
+353	All Shook Up	Elvis Presley	
+GBQRF0822246
+USRC10200070
+(show 2 more)
+USRC16807759
+3.65
+1:59
+354	Tears in Heaven	Eric Clapton	
+USRE19100010
+4:32
+355	Watching the Detectives	Elvis Costello	
+GBASQ7700013
+4.15
+3:45
+356	Bad Moon Rising (album version)	Creedence Clearwater Revival	
+DEA319906880
+USC4R0817604
+(show 2 more)
+USFI86900055
+4.3
+2:20
+357	Sweet Dreams (Are Made of This)	Eurythmics	
+GBARL0300589
+GBARL1800388
+GBARL8300004
+4.15
+3:36
+358	Little Wing (original stereo studio mix)	The Jimi Hendrix Experience	
+USMC19340603
+USQX90900757
+4.65
+2:26
+359	Nowhere to Run	Martha and the Vandellas	
+USMO10200170
+USMO16500445
+USSM19920610
+4.65
+2:57
+360	Got My Mojo Working	Muddy Waters	
+USMC15608393
+4.5
+2:52
+361	Killing Me Softly With His Song	Roberta Flack	
+USAT20507214
+USAT21303199
+USAT29901394
+3.55
+4:48
+362	Complete Control	The Clash	
+GBARL1201018
+GBBBN7702002
+GBBBN9902453
+4
+3:14
+363	All You Need Is Love (original stereo studio mix)	The Beatles	
+GBAYE0000937
+GBAYE0601643
+GBAYE0601682
+GBAYE6700001
+3.95
+3:49
+364	The Letter	The Box Tops	
+USAR10000544
+USAR10201773
+USAR17200009
+4.15
+1:55
+365	Highway 61 Revisited (officially released stereo studio recording)	Bob Dylan	
+USSM19922503
+4
+3:30
+366	Unchained Melody	The Righteous Brothers	
+USCRB0000546
+USF096700120
+(show 3 more)
+USUR10200949
+3
+3:37
+367	How Deep Is Your Love	Bee Gees	
+GBA077600060
+GBA077700060
+(show 3 more)
+USRH10903946
+4.1
+4:03
+368	White Room	Cream	
+GBA076800030
+NLF056890053
+NLFO56890053
+4.55
+4:59
+369	Personal Jesus (album version)	Depeche Mode	
+GBAJH0600051
+GBAJH0600289
+GBAJH0600298
+GBAJH9900191
+4.1
+4:55
+370	I’m a Man	Bo Diddley	
+USMC15547010
+4.35
+3:01
+371	The Wind Cries Mary	The Jimi Hendrix Experience	
+USMC16740591
+USQX90900771
+4.25
+3:21
+372	I Can’t Explain	The Who	
+GBAKW0201139
+GBUM71406034
+(show 2 more)
+USMC10200845
+2:02
+373	Marquee Moon	Television	
+USEE10301136
+9:58
+374	Wonderful World	Sam Cooke	
+USA175920030
+USRC16006731
+3:01
+375	Brown Eyed Handsome Man	Chuck Berry	
+GBEEJ0701616
+USMC15645870
+3
+2:17
+376	Another Brick in the Wall, Part 2 (album version)	Pink Floyd	
+GBDJQ0100002
+GBDJQ7900001
+(show 3 more)
+USSM17900248
+4.2
+4:00
+377	Fake Plastic Trees	Radiohead	
+GBAYE9400056
+GBAYE9400669
+4.5
+4:51
+378	Pride (In the Name of Love)	U2	
+GBAAN8490002
+GBUM70817519
+4.05
+3:49
+379	Radio Free Europe	R.E.M.	
+USCA20600768
+USIR38800008
+4.15
+4:06
+380	Goodbye Yellow Brick Road	Elton John	
+GBAMB9500058
+GBF080300779
+GBUM71304956
+3.85
+3:15
+381	Tell It Like It Is (re-recorded version)	Aaron Neville	
+GBBXS1278779
+USESK1320171
+(show 2 more)
+USUG10200010
+3:06
+382	Bitter Sweet Symphony (original)	The Verve	
+GBAAA0400535
+GBAAA9700049
+GBUM71601816
+4.35
+5:59
+383	Whipping Post	The Allman Brothers Band	
+USPR36930032
+4.4
+5:21
+384	Ticket to Ride	The Beatles	
+GBAYE0600432
+GBAYE0601471
+GBAYE0900666
+3:10
+385	Ohio	Crosby, Stills, Nash & Young	
+USAT20000071
+USAT20900807
+(show 2 more)
+USRE19900420
+3.75
+3:02
+386	I Know You Got Soul	Eric B. & Rakim	
+USIR28700018
+USUR19700355
+3.5
+4:44
+387	Tiny Dancer	Elton John	
+GBAMB7100001
+GBAMB9100001
+GBF080400632
+GBUM71604254
+3.55
+6:16
+388	Roxanne	The Police	
+GBAAM0201086
+GBAAM7800003
+4.3
+3:12
+389	Just My Imagination (Running Away with Me)	The Temptations	
+USMO17100074
+USMO17100274
+USMO17100571
+USMO17190001
+5
+3:49
+390	Baby I Need Your Loving	Four Tops	
+USMO10111235
+USMO16482602
+USMO16582890
+4.5
+2:46
+391	Band of Gold	Freda Payne	
+GBAJE7000061
+GBBLG7000081
+USWWW0200340
+4.5
+2:54
+392	O‐o‐h Child	The Five Stairsteps	
+USBR10100127
+3.8
+3:16
+393	Summer in the City	The Lovin’ Spoonful	
+USBR10300026
+USBR16600002
+4.8
+2:40
+394	Can’t Help Falling in Love	Elvis Presley	
+USRC18705928
+3
+3:01
+395	Remember (Walkin’ in the Sand)	The Shangri‐Las	
+USPR36402498
+4.4
+2:18
+396	Thirteen	Big Star	
+USC4R0919655
+USC4R1402848
+USC4R1901233
+USFI87200246
+4.05
+2:35
+397	(Don’t Fear) The Reaper (single edit)	Blue Öyster Cult	
+USSM10028169
+USSM17600640
+USSM17600875
+4.4
+3:50
+398	Sweet Home Alabama	Lynyrd Skynyrd	
+AUUM70801787
+USLIC0601863
+(show 3 more)
+USUMG0000661
+4.15
+4:44
+399	Enter Sandman	Metallica	
+GBF089190013
+QMKHM1900001
+QMKHM1900218
+USEE10001992
+4.3
