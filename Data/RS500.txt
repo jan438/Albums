@@ -603,3 +603,583 @@ USA171910090
 USA176910100
 4
 7:30
+
+#	Name	Artist	ISRCs	Rating	Length
+101	Voodoo Child (slight return)	The Jimi Hendrix Experience	
+USMC16840593
+USMC19340593
+USQX90900750
+4.35
+5:13
+102	Be‐Bop‐A‐Lula	Gene Vincent & His Blue Caps	
+FRX281906399
+GBRXC0800449
+USCA25600116
+USCA28800076
+4.35
+2:36
+103	Hot Stuff (album version)	Donna Summer	
+USIR20201153
+USMR17989008
+USPR37907202
+4.5
+5:15
+104	Living for the City	Stevie Wonder	
+USMO10000390
+4.5
+3:41
+105	The Boxer (original stereo mix)	Simon & Garfunkel	
+USSM10025761
+USSM10103873
+(show 2 more)
+USSM16900831
+4.15
+5:10
+106	Mr. Tambourine Man (officially released studio recording)	Bob Dylan	
+USSM16400192
+USSM16500148
+USSM16501138
+USSM19922515
+4.3
+5:29
+107	Not Fade Away	The Crickets	
+USMC15707450
+4.65
+2:23
+108	Little Red Corvette	Prince	
+USRH11902852
+USWB10003038
+4.3
+4:58
+109	Brown Eyed Girl (original stereo mix)	Van Morrison	
+GBAKZ7300001
+GBAWA0515685
+(show 9 more)
+USV291488230
+3.25
+3:05
+110	I’ve Been Loving You Too Long (mono)	Otis Redding	
+USAT20800912
+3
+2:57
+111	I’m So Lonesome I Could Cry	Hank Williams with His Drifting Cowboys	
+DEU240526714
+GBEEJ0203536
+USF067100100
+USPR34900126
+4.25
+2:48
+112	That’s All Right	Elvis Presley	
+USA820400067
+USRC10301057
+(show 2 more)
+USRC19703012
+3.2
+1:58
+113	Up on the Roof	The Drifters	
+TCJPK2090706
+USAT20001006
+5
+2:37
+114	Da Doo Ron Ron (re-recording)	The Crystals	
+GBAWA0377951
+USQX91000374
+USQX91100116
+5
+2:20
+115	You Send Me	Sam Cooke	
+DEU241001260
+USA171920000
+USA175720010
+USRC10000362
+4.5
+2:46
+116	Honky Tonk Women	The Rolling Stones	
+USA176900010
+3:06
+117	Take Me to the River	Al Green	
+US2HK0914502
+USHC17400021
+4.75
+3:46
+118	Shout, Parts 1 & 2 (full uncut version)	The Isley Brothers	
+USLIC0500341
+USRC10400060
+(show 2 more)
+USSM19601985
+5
+4:28
+119	Go Your Own Way	Fleetwood Mac	
+USLIC0601867
+USRE11000837
+(show 5 more)
+USWB19900181
+4.35
+3:39
+120	I Want You Back	The Jackson 5	
+USMO10400510
+USMO16900464
+USMO19400306
+4.15
+2:59
+121	Stand by Me	Ben E. King	
+FR6F31393230
+ITCF41500945
+(show 7 more)
+USEE11300018
+4.65
+2:58
+122	The House of the Rising Sun (original UK single version)	The Animals	
+GBAYE0201752
+GBAYE6400209
+USA176460010
+4.25
+4:30
+123	It’s a Man’s Man’s World	James Brown	
+USPG19190035
+USPR37080248
+(show 2 more)
+USUR10300969
+4.4
+2:48
+124	Jumpin’ Jack Flash (mono version)	The Rolling Stones	
+USA171610149
+USA176810110
+3.75
+3:42
+125	Will You Love Me Tomorrow (mono)	The Shirelles	
+FRX086090001
+GB03A0800389
+(show 3 more)
+USUG10400030
+3.8
+2:42
+126	Shake, Rattle and Roll	Big Joe Turner	
+GB4FJ0912442
+USA370953980
+USBT21262142
+3:00
+127	Changes	David Bowie	
+USJT10500013
+USJT11400002
+(show 2 more)
+USJT19900027
+4.5
+3:35
+128	Rock & Roll Music (1958 single version)	Chuck Berry	
+GBEEJ0801714
+USMC15719650
+USMC15719961
+4.35
+2:33
+129	Born to Be Wild	Steppenwolf	
+USMC10400120
+USMC16846563
+4.35
+3:29
+130	Maggie May (including “Henry” prelude)	Rod Stewart	
+USPR37102613
+USRHD0134128
+(show 2 more)
+USWB10000765
+4.15
+5:47
+131	With or Without You	U2	
+GBAAN8790003
+GBUM70709792
+GBUM71800338
+GMUM70709792
+4.35
+4:56
+132	Who Do You Love?	Bo Diddley	
+GBAWA0232987
+USMC15646830
+3.5
+2:30
+133	Won’t Get Fooled Again (original album version)	The Who	
+GBA137100090
+GBAKW7100100
+(show 2 more)
+GBUM72203488
+4.65
+8:33
+134	In the Midnight Hour	Wilson Pickett	
+USAT20704795
+USAT21703769
+USAT29902205
+3
+2:34
+135	While My Guitar Gently Weeps (original stereo studio mix)	The Beatles	
+GBAYE0601650
+4.55
+4:45
+136	Your Song	Elton John	
+GBAMB9500072
+GBUM71604260
+3.95
+4:02
+137	Eleanor Rigby (original mono studio mix)	The Beatles	
+GBAYE0900689
+GBUM72202564
+4.2
+2:09
+138	Family Affair	Sly & the Family Stone	
+USSM10020383
+USSM17100398
+4.35
+3:04
+139	I Saw Her Standing There (original mono studio mix)	The Beatles	
+GBAYE0900605
+3.55
+2:56
+140	Kashmir	Led Zeppelin	
+USAT20703882
+USAT21207041
+(show 3 more)
+USRH11505638
+4.05
+8:30
+141	All I Have to Do Is Dream (mono)	The Everly Brothers	
+DEU241001144
+GB2R51201629
+(show 3 more)
+USWB19903268
+4
+2:21
+142	Please, Please, Please	James Brown	
+USF065600010
+USUM70736645
+2:45
+143	Purple Rain (live, 1983‐08‐03: First Avenue, Minneapolis, MN, USA, with overdubs; album version)	Prince and The Revolution	
+USWB10001880
+USWB10600305
+USWB11700198
+USWB11700470
+4.2
+8:41
+144	I Wanna Be Sedated	Ramones	
+USRH11802019
+USWB10201817
+USWB19900888
+4.4
+2:30
+145	Everyday People (stereo)	Sly & the Family Stone	
+USSM10017459
+USSM10209992
+(show 2 more)
+USSM19913826
+4.15
+2:22
+146	Rock Lobster (single version)	The B‐52s	
+USWB10901942
+USWB17900063
+USWB19901100
+3
+4:55
+147	Lust for Life	Iggy Pop	
+USTM39200001
+USVI29000046
+4.45
+5:12
+148	Me and Bobby McGee	Janis Joplin	
+USSM17000631
+USSM17000790
+(show 2 more)
+USSM19804750
+4.3
+4:31
+149	Cathy’s Clown	The Everly Brothers	
+UKR791870811
+USESK1602911
+(show 2 more)
+USWB19903266
+3.35
+2:25
+150	Eight Miles High	The Byrds	
+USSM16600032
+USSM16600405
+USSM19800375
+4.2
+3:36
+151	Earth Angel	The Penguins	
+GBAJD0675076
+GBDAG6400345
+USPR35610003
+USPR38609012
+5
+2:57
+152	Foxy Lady (stereo)	The Jimi Hendrix Experience	
+USMC10000738
+USMC16740594
+USQX90900774
+4.05
+3:19
+153	A Hard Day’s Night (original mono studio mix)	The Beatles	
+GBAYE0900633
+GBAYE6400578
+GBUM71308284
+4.35
+2:28
+154	Rave On	Buddy Holly	
+GBEEJ0900002
+USMC15804202
+USMC15847466
+4.2
+1:50
+155	Proud Mary	Creedence Clearwater Revival	
+DEA319906874
+USC4R0817594
+(show 2 more)
+USFI86900049
+4.3
+3:08
+156	The Sound of Silence (overdubbed remix 1965)	Simon & Garfunkel	
+USSM16400205
+USSM16400940
+(show 4 more)
+USSM19918647
+4.55
+3:06
+157	I Only Have Eyes for You	The Flamingos	
+GBAYE0400308
+USRHI0110577
+4.25
+3:23
+158	Rock Around the Clock	Bill Haley & His Comets	
+USESK0607424
+2:07
+159	I’m Waiting for the Man (original stereo studio mix)	The Velvet Underground	
+USPR36702760
+3.65
+4:39
+160	Bring the Noise	Public Enemy	
+USDJ28800014
+USSM18700467
+3.85
+3:46
+161	I Can’t Stop Loving You (stereo)	Ray Charles	
+USC4R0919286
+4
+4:13
+162	Nothing Compares 2 U	Sinéad O’Connor	
+GBAYE9000017
+GBAYK0900007
+(show 3 more)
+USRHD0430823
+4.3
+5:08
+163	Bohemian Rhapsody	Queen	
+GBCEE0100112
+GBCEE0500364
+(show 4 more)
+GBUM71029604
+4.45
+5:55
+164	Folsom Prison Blues (live, 1968-01-13: Folsom Prison, Folsom, CA, USA)	Johnny Cash	
+USSM10802940
+USSM16800410
+USSM16800962
+USSM16801298
+4.85
+2:44
+165	Fast Car	Tracy Chapman	
+USEE10180719
+USRH11508087
+4.45
+4:57
+166	Lose Yourself (explicit)	Eminem	
+USIR10211559
+4.05
+5:22
+167	Let’s Get It On (album version)	Marvin Gaye	
+USMO10300491
+USMO17300037
+USMO19290019
+4.1
+4:52
+168	Papa Was a Rollin’ Stone (single edit)	The Temptations	
+USMO17200080
+USMO17200280
+USMO17282600
+USMO17290001
+4
+6:56
+169	Losing My Religion	R.E.M.	
+USC4R1605373
+USWB10402077
+USWB11102866
+USWB19901521
+4.3
+4:28
+170	Both Sides, Now (Clouds version)	Joni Mitchell	
+USRE19600234
+3.85
+4:34
+171	Dancing Queen (single/LP/12″ version)	ABBA	
+SEAYD7601020
+SEUV71000390
+USAT20302166
+USAT20903514
+4.05
+3:51
+172	Dream On	Aerosmith	
+USSM10011897
+USSM10207880
+USSM17200141
+USSM19700514
+4.45
+4:27
+173	God Save the Queen	Sex Pistols	
+GBUM71200588
+USWB17700045
+4.5
+3:19
+174	Paint It Black (original single mono version)	The Rolling Stones	
+USA171610980
+USA176610020
+USUM70742386
+3.85
+3:46
+175	I Fought the Law	The Bobby Fuller Four	
+USRH10402030
+USRH10721902
+USRH10721938
+4.35
+2:19
+176	Don’t Worry Baby	The Beach Boys	
+USCA20001605
+USCA20100781
+(show 2 more)
+USCA29900642
+4.1
+2:48
+177	Free Fallin’	Tom Petty	
+USMC18925673
+USMC19341701
+4.05
+4:16
+178	September Gurls	Big Star	
+USC4R2442393
+USFI87400358
+4
+2:49
+179	Love Will Tear Us Apart	Joy Division	
+GBAAP0500321
+GBAAP1200064
+(show 5 more)
+USRHD0702651
+4.5
+3:26
+180	Hey Ya!	OutKast	
+USAR10300924
+USAR10301095
+USAR10400590
+USLF20700093
+4
+3:55
+181	Green Onions	Booker T. & the MG’s	
+FRM036203210
+FRX452353604
+(show 4 more)
+USRH11701387
+4.15
+2:54
+182	Save the Last Dance for Me	The Drifters	
+USAT20102477
+USESK1602914
+5
+2:30
+183	The Thrill Is Gone	B.B. King	
+USUM70608474
+5:25
+184	Please Please Me (original mono studio mix)	The Beatles	
+GBAYE0900611
+4
+2:02
+185	Desolation Row (officially released stereo studio recording)	Bob Dylan	
+USSM16501009
+3.85
+11:20
+186	I Never Loved a Man (the Way I Love You) (original stereo mix)	Aretha Franklin	
+DELJ81808922
+TCJPN2170855
+(show 7 more)
+USAT29902245
+4
+2:45
+187	Back in Black	AC/DC	
+AUAP08000046
+4.55
+4:16
+188	Who’ll Stop the Rain	Creedence Clearwater Revival	
+USC4R0817634
+USC4R0919610
+USC4R0920571
+USFI87000060
+4.45
+2:29
+189	Stayin’ Alive	Bee Gees	
+GBA077700050
+GBAKW9400008
+(show 2 more)
+USRH10721057
+3.9
+4:45
+190	Knockin’ on Heaven’s Door	Bob Dylan	
+USSM10024015
+USSM11304547
+(show 4 more)
+USSM19901420
+4.7
+2:31
+191	Free Bird	Lynyrd Skynyrd	
+USMC17301722
+USMC17347091
+4.8
+9:08
+192	Wichita Lineman	Glen Campbell	
+USCN10100759
+USCN10200411
+USCN10801427
+USCN18700049
+3.65
+3:05
+193	There Goes My Baby	The Drifters	
+GBAWA0512139
+USEW20180238
+4.5
+2:12
+194	Peggy Sue	Buddy Holly	
+GBEEJ0800660
+USMC15703180
+USMC15807694
+4.5
+2:31
+195	Maybe	The Chantels	
+USESK0606497
+5
+2:52
+196	Sweet Child o’ Mine	Guns N’ Roses	
+USGF18714809
+4.5
+5:56
+197	Don’t Be Cruel	Elvis Presley	
+USRC10200073
+USRC15602859
+3.8
+2:04
+198	Hey Joe	The Jimi Hendrix Experience	
+USMC16740590
+4.25
+3:25
+199	Flash Light (single version)	Parliament	
+USEE10900656
+USPR37700065
+USUM71315013
+4.4
+4:29
+200	Loser	Beck	
+USGF19463401
+4.35
+3:56
+
