@@ -1,5 +1,5 @@
 500;Stronger;Kanye West;2007;
-499	Baby Love	The Supremes	1964
+499;Baby Love;The Supremes;1964;
 498	Pancho and Lefty	Townes Van Zandt	1972
 497	Truth Hurts	Lizzo	2017
 496	Without You	Harry Nilsson	1971
