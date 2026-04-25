@@ -38,9 +38,9 @@ my_canvas.setFillColor(HexColor('#000000'))
 count = 0
 for i in range(maxsongs):
     my_canvas.drawString(leftmargin + col * colwidth + 5, bottommargin + row * rowheight, str(position))
-    my_canvas.drawString(leftmargin + col * colwidth + 50, bottommargin + row * rowheight, songsdata[i][0])
-    my_canvas.drawString(leftmargin + col * colwidth + 200, bottommargin + row * rowheight, songsdata[i][1])
-    my_canvas.drawString(leftmargin + col * colwidth + 400, bottommargin + row * rowheight, songsdata[i][2])
+    my_canvas.drawString(leftmargin + col * colwidth + 50, bottommargin + row * rowheight, songsdata[i][1])
+    my_canvas.drawString(leftmargin + col * colwidth + 200, bottommargin + row * rowheight, songsdata[i][2])
+    my_canvas.drawString(leftmargin + col * colwidth + 400, bottommargin + row * rowheight, songsdata[i][3])
     row -= 1
     count += 1
     position -= 1
