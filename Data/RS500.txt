@@ -1,0 +1,605 @@
+
+#	Name	Artist	ISRCs	Rating	Length
+1	Like a Rolling Stone (officially released stereo studio recording)	Bob Dylan	
+USSM16500146
+USSM16501022
+USSM16501137
+USSM19922509
+4.45
+6:10
+2	(I Can’t Get No) Satisfaction (mono version)	The Rolling Stones	
+USA171510000
+USA176510160
+4.05
+3:45
+3	Imagine (original studio mix)	John Lennon	
+GBAYE0000028
+GBAYE1000769
+GBAYE7100010
+4.2
+3:04
+4	What’s Going On (original LP version)	Marvin Gaye	
+USMO10000523
+USMO17100041
+USMO19290028
+4.25
+3:53
+5	Respect (stereo)	Aretha Franklin	
+AUXN22142334
+DELJ81808923
+(show 16 more)
+USSM10026969
+3.9
+2:26
+6	Good Vibrations (stereo)	The Beach Boys	
+USCA20100360
+USCA20100773
+(show 3 more)
+USCA29900677
+4.2
+3:37
+7	Johnny B. Goode (original release, take 3, without overdub)	Chuck Berry	
+FRX281906397
+GBAWA0228993
+(show 5 more)
+USWWW0131134
+4.25
+2:40
+8	Hey Jude (original stereo studio mix)	The Beatles	
+GBAYE0000940
+GBAYE0900596
+GBAYE6800011
+4
+7:08
+9	Smells Like Teen Spirit	Nirvana	
+USGF19942501
+4.35
+5:01
+10	What’d I Say, Parts 1 & 2	Ray Charles	
+USAT20102461
+USAT20403876
+USAT21201085
+USRH10130909
+3.5
+6:28
+11	My Generation (mono)	The Who	
+GBAKW0080307
+GBAKW6500004
+USMC10200837
+USMC16516675
+4.5
+3:19
+12	A Change Is Gonna Come (original stereo studio mix)	Sam Cooke	
+USA171520017
+USA176420220
+3.8
+3:13
+13	Yesterday (original stereo studio mix)	The Beatles	
+GBAYE0900799
+GBAYE6500521
+4.75
+2:07
+14	Blowin’ in the Wind (officially released studio recording)	Bob Dylan	
+USSM10307243
+USSM16200168
+USSM16201241
+USSM19900534
+4.4
+2:48
+15	London Calling (original studio mix)	The Clash	
+GBARL1200680
+GBBBN0400804
+GBBBN7902002
+GBBBN9902460
+4.1
+3:20
+16	I Want to Hold Your Hand (original mono studio mix)	The Beatles	
+GBAYE0401845
+GBAYE0401890
+GBAYE0900761
+4.2
+2:27
+17	Purple Haze (stereo)	The Jimi Hendrix Experience	
+USMC16740589
+USQX90900765
+4.45
+2:51
+18	Maybellene (mono)	Chuck Berry	
+USMC15519962
+USMC18345866
+3.9
+2:21
+19	Hound Dog	Elvis Presley	
+USRC10201414
+2:16
+20	Let It Be (original studio album mix)	The Beatles	
+GBAYE0601713
+4.2
+4:03
+21	Born to Run (version 5a)	Bruce Springsteen	
+USSM17500423
+USSM17500544
+USSM17500802
+4.35
+4:30
+22	Be My Baby	The Ronettes	
+AUXN22125653
+USBMG0100039
+USBMG0700677
+USQX91100088
+4.15
+2:41
+23	In My Life (original stereo studio mix)	The Beatles	
+GBAYE0601489
+GBAYE0900811
+4.35
+2:26
+24	People Get Ready	The Impressions	
+USMC16445382
+4
+2:40
+25	God Only Knows (mono)	The Beach Boys	
+USCA20600926
+USCA21201722
+(show 4 more)
+USCA29900676
+4.15
+2:51
+26	(Sittin’ on) The Dock of the Bay	Otis Redding	
+USAT20804257
+USAT21403443
+(show 5 more)
+USWB19901766
+4.45
+2:42
+27	Layla (original studio mix)	Derek and the Dominos	
+GBA077000020
+GBUM71028890
+NLF050490057
+NLF057090038
+4.45
+7:07
+28	A Day in the Life (original stereo studio mix)	The Beatles	
+GBAYE0601519
+4
+5:34
+29	Help! (original stereo studio mix, without intro)	The Beatles	
+GBAYE0900787
+GBAYE6500524
+4.2
+2:21
+30	I Walk the Line (studio, 1956-04-02: Sun single)	Johnny Cash and The Tennessee Two	
+GBAWA0513428
+GBAWA5661029
+(show 3 more)
+USSM19902742
+4.15
+2:45
+31	Stairway to Heaven	Led Zeppelin	
+USAT20703875
+USAT21207031
+(show 3 more)
+USRH11505631
+4.15
+8:02
+32	Sympathy for the Devil (original studio mix)	The Rolling Stones	
+USA171810010
+USA176810010
+4.2
+6:19
+33	River Deep – Mountain High	Ike & Tina Turner	
+USAM10200063
+USBT21625127
+(show 2 more)
+USQX91100133
+3.5
+3:38
+34	You’ve Lost That Lovin’ Feelin’ (single version)	The Righteous Brothers	
+USCRB0201431
+USPG19090022
+USSM10002358
+3
+3:44
+35	Light My Fire	The Doors	
+USEE10608278
+USEE11200525
+USEE19900203
+USRH11605641
+4.3
+7:08
+36	One	U2	
+GBAAN9190003
+GBUM71106457
+GBUM71801528
+4.15
+4:36
+37	No Woman, No Cry	Bob Marley & The Wailers	
+GBAAN7490002
+3.6
+3:46
+38	Gimme Shelter (original studio mix)	The Rolling Stones	
+USA171910010
+USA176910020
+3.8
+4:32
+39	That’ll Be the Day (1956 version)	Buddy Holly with The Three Tunes	
+FR8V60900077
+USMC10500117
+USMC15600442
+2:26
+40	Dancing in the Street (stereo single version)	Martha and the Vandellas	
+USMO10400267
+USMO16400446
+3.55
+2:39
+41	The Weight (album version)	The Band	
+USCA20000789
+USCA28500167
+USRHD0702838
+USUG11100580
+4.1
+4:35
+42	Waterloo Sunset	The Kinks	
+GBAJE7600184
+GBUM70811348
+4.3
+3:16
+43	Tutti Frutti (original specialty recording (1955))	Little Richard	
+FRX281906398
+GBEEJ0601958
+(show 3 more)
+USSPI5600006
+4.1
+2:25
+44	Georgia on My Mind	Ray Charles	
+FR6F31926690
+USC4R0920453
+USRH10125704
+USRHD0430546
+4.2
+3:38
+45	Heartbreak Hotel	Elvis Presley	
+USRC10200074
+USRC15602846
+USRC15606576
+USWD10210256
+3.7
+2:09
+46	“Heroes”	David Bowie	
+USJT11700005
+USJT11700025
+USJT19900130
+4.6
+6:10
+47	Bridge Over Troubled Water (original stereo mix)	Simon & Garfunkel	
+USSM10103868
+USSM10403915
+(show 2 more)
+USSM16901098
+4.05
+4:53
+48	All Along the Watchtower	The Jimi Hendrix Experience	
+USMC16856774
+USMC19340588
+USQX90900749
+4.55
+4:01
+49	Hotel California	Eagles	
+USEE11300195
+USEE11300353
+USEE19900323
+4.6
+6:30
+50	The Tracks of My Tears (stereo)	Smokey Robinson and The Miracles	
+USMO16500449
+USMO16500499
+USMO16572026
+4.25
+2:57
+51	The Message (original version)	Grandmaster Flash & The Furious Five	
+GBUM70900287
+USRH10300096
+(show 2 more)
+USRH10903016
+4.3
+7:11
+52	When Doves Cry (album version)	Prince and The Revolution	
+USWB10001877
+USWB11700195
+USWB11700467
+USWB19903183
+4.1
+5:54
+53	Anarchy in the U.K. (demo version \ Great Rock n Roll Swindle)	Sex Pistols	
+GBAJE8900020
+GBUM71200609
+4:04
+54	When a Man Loves a Woman (stereo)	Percy Sledge	
+FR6F31172720
+USACU0503384
+(show 4 more)
+USRH10652482
+4.35
+2:53
+55	Louie Louie	The Kingsmen	
+USA370544298
+USRH10652605
+3.8
+2:45
+56	Long Tall Sally (mono)	Little Richard	
+USC4R1100484
+USSPI5600009
+4
+2:09
+57	A Whiter Shade of Pale (mono)	Procol Harum	
+ARF410701379
+ATM470300459
+(show 4 more)
+USLS51554801
+4.1
+4:02
+58	Billie Jean (album / single version)	Michael Jackson	
+USSM18200001
+USSM18200612
+USSM19902991
+4.1
+4:54
+59	The Times They Are A‐Changin’ (original stereo studio mix)	Bob Dylan	
+USSM10007452
+USSM16300210
+USSM16301214
+4
+3:14
+60	Let’s Stay Together	Al Green	
+ARF411800301
+GBAFR7100001
+(show 2 more)
+USHI27100002
+4.55
+3:17
+61	Whole Lotta Shakin’ Goin’ On	Jerry Lee Lewis	
+GBAWA0513641
+GBAWA0513646
+(show 3 more)
+USSE62200090
+4.65
+2:53
+62	Bo Diddley	Bo Diddley	
+GBAWA0232975
+USMC15547009
+3.25
+2:46
+63	For What It’s Worth (stereo)	Buffalo Springfield	
+USEE10170607
+USEE10251925
+(show 6 more)
+USRH11800104
+4.25
+2:37
+64	She Loves You (original mono studio mix)	The Beatles	
+GBAYE0000922
+GBAYE0401867
+(show 4 more)
+GBUM71505910
+3.7
+2:21
+65	Sunshine of Your Love (original stereo studio mix)	Cream	
+GBA076700020
+NLF056790030
+NLFO56790030
+4.35
+4:12
+66	Redemption Song	Bob Marley & The Wailers	
+USIR28000018
+4.05
+3:48
+67	Jailhouse Rock	Elvis Presley	
+IT0050800010
+USRC10200071
+(show 2 more)
+USRC19900463
+3.55
+2:28
+68	Tangled Up in Blue (original studio)	Bob Dylan	
+USSM10307464
+USSM17400149
+USSM17400276
+USSM19906468
+3.75
+5:43
+69	Crying	Roy Orbison	
+USSM10700298
+USSM16101208
+USSM19500403
+4.65
+2:47
+70	Walk On By	Dionne Warwick	
+USWSP0000173
+4.75
+2:55
+71	California Girls	The Beach Boys	
+USCA20001686
+USCA20100774
+USCA26500022
+USGJP1300296
+4.5
+2:45
+72	Papa’s Got a Brand New Bag (part 1)	James Brown	
+USF066500020
+3.65
+2:07
+73	Summertime Blues (UK single version, i.e. without echo)	Eddie Cochran	
+FRM031229830
+GBAWA0674259
+(show 2 more)
+USUG10400087
+3.75
+1:58
+74	Superstition (album version)	Stevie Wonder	
+USMO17200984
+4.85
+4:26
+75	Whole Lotta Love (original studio mix)	Led Zeppelin	
+USAT20703867
+USAT21207009
+(show 3 more)
+USRH11505623
+4.45
+5:34
+76	Strawberry Fields Forever (original stereo studio mix)	The Beatles	
+GBAYE0601640
+5
+4:10
+77	Mystery Train	Elvis Presley	
+USA820400081
+USRC15505561
+USRC15505812
+USRC19808617
+3.4
+2:27
+78	I Got You (I Feel Good)	James Brown and the Famous Flames	
+USF066500010
+USF066625050
+USFO66625050
+4.55
+2:47
+79	Mr. Tambourine Man	The Byrds	
+USSM16500019
+USSM16500361
+(show 3 more)
+USSM19923187
+4.15
+2:21
+80	I Heard It Through the Grapevine	Marvin Gaye	
+GBCBR0300012
+USM019582697
+(show 2 more)
+USMO19582697
+4.05
+3:14
+81	Blueberry Hill (Imperial, edited)	Fats Domino	
+DEU240701167
+FRX281906401
+(show 5 more)
+USEM39100198
+4.65
+2:22
+82	You Really Got Me (original mono studio mix)	The Kinks	
+AUV401446573
+DEA610100348
+(show 10 more)
+USRHD0532005
+4.25
+2:14
+83	Norwegian Wood (This Bird Has Flown) (original mono studio mix)	The Beatles	
+GBAYE0600378
+GBAYE0900675
+4.55
+2:05
+84	Every Breath You Take	The Police	
+GBAAM0201110
+GBAAM0400060
+GBAAM8300001
+GBUM72301475
+4.1
+4:14
+85	Crazy (single version)	Patsy Cline	
+GBA7H1139946
+USMC16147347
+USMC16747347
+USMO16183265
+4.15
+2:44
+86	Thunder Road (version 7)	Bruce Springsteen	
+USSM17500803
+USSM19904335
+3.9
+4:50
+87	Ring of Fire (stereo)	Johnny Cash	
+USSM11201688
+USSM16301078
+USSM16301167
+USSM19917137
+4.25
+2:37
+88	My Girl	The Temptations	
+NOISR8366569
+USMO10000341
+(show 6 more)
+USNPD0714255
+4.5
+2:45
+89	California Dreamin’ (single version)	The Mamas and the Papas	
+USMC16532697
+4.35
+2:40
+90	In the Still of the Night	The Five Satins	
+USAR10300952
+USAR15600101
+USAR17200007
+4.5
+3:04
+91	Suspicious Minds	Elvis Presley	
+USRC10200078
+USRC10201481
+(show 3 more)
+USRC19101809
+4.1
+4:30
+92	Blitzkrieg Bop (single/album version)	Ramones	
+USRH11601901
+USWB10102793
+(show 3 more)
+USWB19900895
+4.65
+2:13
+93	I Still Haven’t Found What I’m Looking For	U2	
+GBAAN8790002
+GBUM70709783
+GMUM70709783
+USLIC0700463
+4.1
+4:38
+94	Good Golly Miss Molly	Little Richard	
+USSPI5800010
+3.5
+2:09
+95	Blue Suede Shoes	Carl Perkins	
+GBAWA0665298
+GBAYE9901404
+USSE60270231
+USSM16901119
+4
+2:16
+96	Great Balls of Fire (master)	Jerry Lee Lewis	
+ITCF41504362
+USAT20104911
+(show 3 more)
+USSM10002359
+4.35
+1:52
+97	Roll Over Beethoven	Chuck Berry	
+FR6F31467880
+GBAWA0232218
+(show 4 more)
+USMC15645871
+4.2
+2:25
+98	Love and Happiness	Al Green	
+GBAFR7210057
+US2HK0913603
+US2HK0914205
+3.7
+5:04
+99	Fortunate Son (album version)	Creedence Clearwater Revival	
+DEA319906857
+USAT21602016
+(show 4 more)
+USLIC0500107
+4.45
+2:20
+100	You Can’t Always Get What You Want (original studio mix)	The Rolling Stones	
+USA171910090
+USA176910100
+4
+7:30
