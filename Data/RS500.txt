@@ -2809,20 +2809,5 @@ USGF19562907
 4.25
 2:40
 498	Rainy Night in Georgia	Brook Benton	
-USAT20002494
-USAT20903464
-4
-3:52
 499	The Boys Are Back in Town	Thin Lizzy	
-GBF087600063
-USLIC0601831
-4.2
-
-#	Name	Artist	ISRCs	Rating	Length
 500	More Than a Feeling	Boston	
-USSM17600047
-USSM17600444
-(show 2 more)
-USSM19907680
-3.9
-4:45
