@@ -5,6 +5,9 @@ import math
 import unicodedata
 from pathlib import Path
 from datetime import datetime, date, timedelta
+from reportlab.pdfbase import pdfmetrics  
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase.pdfmetrics import registerFontFamily
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor
 from reportlab.lib.units import inch, mm
@@ -13,12 +16,17 @@ songsdata = []
 maxsongs = 500
 maxsongspage = 10
 position = 500
+songsfont = "LiberationSerif"
 
 if sys.platform[0] == 'l':
     path = '/home/jan/git/Albums'
 if sys.platform[0] == 'w':
     path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
 os.chdir(path)
+pdfmetrics.registerFont(TTFont('LiberationSerif', 'LiberationSerif-Regular.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBold', 'LiberationSerif-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifItalic', 'LiberationSerif-Italic.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBoldItalic', 'LiberationSerif-BoldItalic.ttf'))
 file_to_open = "Data/RSSongs2024.csv"
 with open(file_to_open, 'r') as file:
     csvreader = csv.reader(file, delimiter = ';')
