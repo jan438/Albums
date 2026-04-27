@@ -40,7 +40,7 @@ row = 25
 colwidth = 200
 rowheight = 20
 leftmargin = 10
-bottommargin = 20
+bottommargin = 100
 my_canvas = canvas.Canvas("PDF/RSSongs2024.pdf")
 my_canvas.setFont(songsfont, 12)
 my_canvas.setFillColor(HexColor('#000000'))
