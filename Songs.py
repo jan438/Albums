@@ -14,7 +14,7 @@ from reportlab.lib.units import inch, mm
 
 songsdata = []
 maxsongs = 500
-maxsongspage = 10
+maxsongspage = 25
 position = 500
 songsfont = "LiberationSerif"
 
@@ -36,7 +36,7 @@ with open(file_to_open, 'r') as file:
         count += 1
 print(count)
 col = 0
-row = 20
+row = 25
 colwidth = 200
 rowheight = 20
 leftmargin = 10
@@ -57,6 +57,6 @@ for i in range(maxsongs):
     if count == maxsongspage:
         my_canvas.showPage()
         count = 0
-        row = 20
+        row = 25
 my_canvas.save()
 key = input("Wait")
