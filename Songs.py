@@ -51,7 +51,7 @@ for i in range(maxsongs):
     my_canvas.drawString(leftmargin + col * colwidth + 50, bottommargin + row * rowheight, artisttitle)
     my_canvas.drawString(leftmargin + col * colwidth + 400, bottommargin + row * rowheight, songsdata[i][3])
     if songsdata[i][4] != "8888":
-        my_canvas.drawString(leftmargin + col * colwidth + 425, bottommargin + row * rowheight, songsdata[i][4])
+        my_canvas.drawString(leftmargin + col * colwidth + 450, bottommargin + row * rowheight, songsdata[i][4])
     row -= 1
     count += 1
     position -= 1
