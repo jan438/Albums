@@ -42,6 +42,7 @@ rowheight = 20
 leftmargin = 10
 bottommargin = 100
 my_canvas = canvas.Canvas("PDF/Festivals2026.pdf")
+my_canvas.setTitle("Festivals 2026")
 my_canvas.setFont(festivalsfont, 12)
 my_canvas.setFillColor(HexColor('#000000'))
 count = 0
