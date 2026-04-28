@@ -48,6 +48,7 @@ my_canvas.setFillColor(HexColor('#000000'))
 count = 0
 for i in range(len(festivalsdata)):
     my_canvas.drawString(leftmargin + col * colwidth + 50, bottommargin + row * rowheight, festivalsdata[i][0])
+    my_canvas.drawString(leftmargin + col * colwidth + 350, bottommargin + row * rowheight, festivalsdata[i][1])
     row -= 1
     count += 1
     position -= 1
