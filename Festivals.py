@@ -1,0 +1,58 @@
+import os
+import sys
+import csv
+import math
+import unicodedata
+from pathlib import Path
+from datetime import datetime, date, timedelta
+from reportlab.pdfbase import pdfmetrics  
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase.pdfmetrics import registerFontFamily
+from reportlab.pdfgen import canvas
+from reportlab.lib.colors import HexColor
+from reportlab.lib.units import inch, mm
+
+festivalsdata = []
+maxfestivals = 10
+maxfestivalspage = 25
+position = 500
+festivalsfont = "LiberationSerif"
+
+if sys.platform[0] == 'l':
+    path = '/home/jan/git/Albums'
+if sys.platform[0] == 'w':
+    path = "C:/Users/janbo/OneDrive/Documents/GitHub/Albums"
+os.chdir(path)
+pdfmetrics.registerFont(TTFont('LiberationSerif', 'LiberationSerif-Regular.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBold', 'LiberationSerif-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifItalic', 'LiberationSerif-Italic.ttf'))
+pdfmetrics.registerFont(TTFont('LiberationSerifBoldItalic', 'LiberationSerif-BoldItalic.ttf'))
+file_to_open = "Data/FestivalsInternational.csv"
+with open(file_to_open, 'r') as file:
+    csvreader = csv.reader(file, delimiter = ';')
+    count = 0
+    for row in csvreader:
+        festivalsdata.append(row)
+        count += 1
+print(count)
+col = 0
+row = 25
+colwidth = 200
+rowheight = 20
+leftmargin = 10
+bottommargin = 100
+my_canvas = canvas.Canvas("PDF/Festivals2026.pdf")
+my_canvas.setFont(festivalsfont, 12)
+my_canvas.setFillColor(HexColor('#000000'))
+count = 0
+for i in range(maxfestivals):
+    my_canvas.drawString(leftmargin + col * colwidth + 450, bottommargin + row * rowheight, festivalsdata[i][0])
+    row -= 1
+    count += 1
+    position -= 1
+    if count == maxfestivalspage:
+        my_canvas.showPage()
+        count = 0
+        row = 25
+my_canvas.save()
+key = input("Wait")
