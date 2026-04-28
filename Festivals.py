@@ -46,8 +46,8 @@ my_canvas.setTitle("Festivals 2026")
 my_canvas.setFont(festivalsfont, 12)
 my_canvas.setFillColor(HexColor('#000000'))
 count = 0
-for i in range(maxfestivals):
-    my_canvas.drawString(leftmargin + col * colwidth + 450, bottommargin + row * rowheight, festivalsdata[i][0])
+for i in range(len(festivalsdata)):
+    my_canvas.drawString(leftmargin + col * colwidth + 50, bottommargin + row * rowheight, festivalsdata[i][0])
     row -= 1
     count += 1
     position -= 1
